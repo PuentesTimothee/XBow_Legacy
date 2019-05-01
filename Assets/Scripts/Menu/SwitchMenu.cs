@@ -20,27 +20,12 @@ public class SwitchMenu : MonoBehaviour
         anim_ = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     public void TriggerAnimation()
     {
         anim_.ResetTrigger(bopHash);
         triggered = true;
         anim_.SetTrigger(animHash);
-        ShowMenu();
-    }
-
-    private void ShowMenu()
-    {
         menu.SetActive(true);
-    }
-
-    public void OnMouseDown()
-    {
-        TriggerAnimation();
     }
 
     public void OnMouseEnter()
