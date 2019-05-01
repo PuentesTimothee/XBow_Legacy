@@ -2396,7 +2396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   templateHeight: 30
   numberOfEntry: 5
-  LevelIndex: 1
+  LevelIndex: 2
+  scoreEntryTemplate: {fileID: 900574376314219112}
 --- !u!114 &919898944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5324,6 +5325,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b096ceba0db8c694cb1eafa0e33dc0e4, type: 3}
+--- !u!1 &900574376314219112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 900574375978128347, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 900574376314219111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1960913230666176304
 PrefabInstance:
   m_ObjectHideFlags: 0

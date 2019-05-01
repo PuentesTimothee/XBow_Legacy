@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FullAnimationLength: 3
   MaxValue: 2
+  AppearOnStart: 0
 --- !u!1001 &566461508317822588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -188,15 +189,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2995413218978305934, guid: 12150df3b80da344aa5bba821f252897,
-        type: 3}
-      propertyPath: m_Layer
-      value: 29
-      objectReference: {fileID: 0}
     - target: {fileID: 7677259169112201203, guid: 12150df3b80da344aa5bba821f252897,
         type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995413218978305934, guid: 12150df3b80da344aa5bba821f252897,
+        type: 3}
+      propertyPath: m_Layer
+      value: 29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12150df3b80da344aa5bba821f252897, type: 3}

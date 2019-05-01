@@ -49,7 +49,6 @@ MonoBehaviour:
   MainHandItemPrefab: {fileID: 3000112466279311329}
   SubHandItemPrefab: {fileID: 1869962509285611369}
   Appears:
-  - {fileID: 339897777969340334}
   - {fileID: 6397149094081615350}
 --- !u!1001 &1486727166515393818
 PrefabInstance:
@@ -116,6 +115,11 @@ PrefabInstance:
     - target: {fileID: 959999569747497533, guid: 337c68b8476236e419d4d2066fc745ea,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505324324545945836, guid: 337c68b8476236e419d4d2066fc745ea,
+        type: 3}
+      propertyPath: AppearOnStart
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -211,7 +215,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8642344758035835843, guid: 14a2f19699c192c4bb0acb833391c306,
+        type: 3}
+      propertyPath: AppearOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8642344758035835843, guid: 14a2f19699c192c4bb0acb833391c306, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 14a2f19699c192c4bb0acb833391c306, type: 3}
 --- !u!1 &3000112466279311329 stripped
 GameObject:
@@ -225,15 +235,3 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8311474471255012461}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &339897777969340334 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8642344758035835843, guid: 14a2f19699c192c4bb0acb833391c306,
-    type: 3}
-  m_PrefabInstance: {fileID: 8311474471255012461}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3000112466279311329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eccdae0c6692ca4681103f9de78d935, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

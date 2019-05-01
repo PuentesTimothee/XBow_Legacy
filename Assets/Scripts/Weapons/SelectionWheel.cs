@@ -116,8 +116,6 @@ namespace Weapons
 
             if (_previewDir.magnitude > _deadZone)
             {
-                float angle = Vector2.SignedAngle(Vector2.up, _previewDir);
-
                 float closestDelta = 1f;
                 for (int x = 0; x <_options.Length; x++)
                 {

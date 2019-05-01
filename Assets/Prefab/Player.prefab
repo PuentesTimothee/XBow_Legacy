@@ -2168,35 +2168,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4675951498613704975}
     m_Modifications:
+    - target: {fileID: 332396943472091260, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
+        type: 3}
+      propertyPath: m_Name
+      value: Sword Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 332396943472091260, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2220001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.032
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.019
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
@@ -2221,16 +2231,6 @@ PrefabInstance:
     - target: {fileID: 332396943472091250, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 332396943472091260, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
-        type: 3}
-      propertyPath: m_Name
-      value: Sword Weapon
-      objectReference: {fileID: 0}
-    - target: {fileID: 332396943472091260, guid: 817aa5c731ade554a8e3ce96f7b7f5dc,
-        type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2273,17 +2273,17 @@ PrefabInstance:
     - target: {fileID: 332396943472091250, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2220001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.032
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.019
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
         type: 3}
@@ -2352,6 +2352,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4675951498613704975}
     m_Modifications:
+    - target: {fileID: 4288628237891042069, guid: d196fab4006310a45bcbed763be9e465,
+        type: 3}
+      propertyPath: m_Name
+      value: ShurikenWepaon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288628237891042069, guid: d196fab4006310a45bcbed763be9e465,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 513920928684981703, guid: d196fab4006310a45bcbed763be9e465,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2407,16 +2417,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4288628237891042069, guid: d196fab4006310a45bcbed763be9e465,
-        type: 3}
-      propertyPath: m_Name
-      value: ShurikenWepaon
-      objectReference: {fileID: 0}
-    - target: {fileID: 4288628237891042069, guid: d196fab4006310a45bcbed763be9e465,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d196fab4006310a45bcbed763be9e465, type: 3}
 --- !u!4 &3650514250236363336 stripped
@@ -2444,6 +2444,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 447954}
     m_Modifications:
+    - target: {fileID: 6042383515689637111, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4,
+        type: 3}
+      propertyPath: m_Name
+      value: PostProcess
+      objectReference: {fileID: 0}
     - target: {fileID: 5911967904339596989, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2498,11 +2503,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6042383515689637111, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4,
-        type: 3}
-      propertyPath: m_Name
-      value: PostProcess
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4, type: 3}

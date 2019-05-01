@@ -13,6 +13,8 @@ public class AppearScript : MonoBehaviour
 
     public float FullAnimationLength = 01f;
     public float MaxValue = 01f;
+
+    public bool AppearOnStart = true;
     
     private void Awake()
     {
@@ -20,8 +22,13 @@ public class AppearScript : MonoBehaviour
         foreach (var renderer in _renderers)
             _materials.AddRange(renderer.materials);
     }
+
+    private void Start()
+    {
+        if (AppearOnStart) StartAppearing();
+    }
     
-    public void Start()
+    public void StartAppearing()
     {
         StartCoroutine(Appear());
     }

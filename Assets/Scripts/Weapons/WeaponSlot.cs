@@ -85,7 +85,7 @@ namespace Weapons
 			_equippedWeapon = weapon;
 
 			foreach (var script in _equippedWeapon.Appears)
-				script.Start();
+				script.StartAppearing();
 		}
 
 		private void EquipOneHand(Hand hand, GameObject obj)

@@ -292,12 +292,6 @@
               <e p="Grenade" t="Include">
                 <e p="Grenade.cs" t="Include" />
               </e>
-              <e p="JoeJeff" t="Include">
-                <e p="JoeJeff.cs" t="Include" />
-                <e p="JoeJeffController.cs" t="Include" />
-                <e p="JoeJeffGestures.cs" t="Include" />
-                <e p="ProceduralHats.cs" t="Include" />
-              </e>
               <e p="Scripts" t="Include">
                 <e p="ButtonEffect.cs" t="Include" />
                 <e p="ButtonExample.cs" t="Include" />
@@ -380,10 +374,7 @@
         </e>
         <e p="SteamVR_Input" t="Include">
           <e p="ActionSetClasses" t="Include">
-            <e p="SteamVR_Input_ActionSet_buggy.cs" t="Include" />
             <e p="SteamVR_Input_ActionSet_default.cs" t="Include" />
-            <e p="SteamVR_Input_ActionSet_mixedreality.cs" t="Include" />
-            <e p="SteamVR_Input_ActionSet_platformer.cs" t="Include" />
           </e>
           <e p="SteamVR_Actions.asmdef" t="Include" />
           <e p="SteamVR_Input_Actions.cs" t="Include" />

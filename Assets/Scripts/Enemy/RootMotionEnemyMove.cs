@@ -8,6 +8,9 @@ public class RootMotionEnemyMove : MonoBehaviour
 	
 	void OnAnimatorMove()
 	{
-		Nav.speed = (Animator.deltaPosition / Time.deltaTime).magnitude;
+		if (Time.deltaTime != 0)
+			Nav.speed = (Animator.deltaPosition / Time.deltaTime).magnitude;
+		else
+			Nav.speed = 0;
 	}
 }

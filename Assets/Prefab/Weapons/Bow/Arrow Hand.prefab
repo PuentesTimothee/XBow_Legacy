@@ -246,20 +246,6 @@ MonoBehaviour:
   rotationLerpThreshold: 0.15
   positionLerpThreshold: 0.15
   arrowSpawnSound: {fileID: 3793337066541276962}
---- !u!114 &8642344758035835843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6555767275195814796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eccdae0c6692ca4681103f9de78d935, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FullAnimationLength: 3
-  MaxValue: 1
 --- !u!1001 &7454230002642153451
 PrefabInstance:
   m_ObjectHideFlags: 0
