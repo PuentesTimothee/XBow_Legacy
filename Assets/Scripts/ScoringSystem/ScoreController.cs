@@ -43,6 +43,20 @@ namespace ScoringSystem
             {
                 entries = new int[0];
             }
+
+            public void SortDescending()
+            {
+                var tmp = entries.ToList();
+                tmp.Sort(delegate(int x, int y) { return (x - y); });
+                entries = tmp.ToArray();
+            }
+
+            public void SortAscending()
+            {
+                var tmp = entries.ToList();
+                tmp.Sort(delegate(int x, int y) { return (y - x); });
+                entries = tmp.ToArray();
+            }
         }
     
         private readonly string _tableName = "Level_";
@@ -92,6 +106,7 @@ namespace ScoringSystem
                 {
                     string jsonString = PlayerPrefs.GetString(TableName(levelIndex));
                     _scores.Add(levelIndex, JsonUtility.FromJson<HighScores>(jsonString));
+                    _scores[levelIndex].SortAscending();
                 }
                 else
                 {
@@ -123,14 +138,13 @@ namespace ScoringSystem
         private void SaveHighScore(int levelIndex, int score)
         {
             var highScore = _scores[levelIndex];
-        
             var tmp = highScore.entries.ToList();
             tmp.Add(score);
-            tmp.Sort();
             highScore.entries = tmp.ToArray();
-        
             _scores[levelIndex] = highScore;
-        
+            
+            _scores[levelIndex].SortAscending();
+
             string json = JsonUtility.ToJson(_scores[levelIndex]);
             PlayerPrefs.SetString(TableName(levelIndex), json);
             PlayerPrefs.Save();
@@ -145,7 +159,7 @@ namespace ScoringSystem
             adding += _comboCount * 100;
             _comboCount++;
             _score += adding;
-            ScoreDisplay.CreatePopupText(adding.ToString(), location);
+            //ScoreDisplay.CreatePopupText(adding.ToString(), location);
         }
 
         #endregion
