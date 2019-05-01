@@ -20,11 +20,6 @@ public class SwitchMenu : MonoBehaviour
         anim_ = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     public void TriggerAnimation()
     {
         anim_.ResetTrigger(bopHash);

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using ScoringSystem;
+using UnityEngine;
 using Valve.VR.InteractionSystem;
 
 public enum SceneType
@@ -13,8 +14,9 @@ public class SceneManager : MonoBehaviour
     public Transform StartPlayerPosition;
     public GameObject PlayerPrefab;
 
+    public int LevelIndex = 1;
     private Player _steamVrPlayer;
-
+    
     private void Awake()
     {
         _steamVrPlayer = Player.Instance;
@@ -29,7 +31,7 @@ public class SceneManager : MonoBehaviour
     {
         _steamVrPlayer.WeaponsSlot.enabled = (SceneType == SceneType.Game);
         if (SceneType == SceneType.Game)
-            ScoreController.StartForLevel(gameObject.scene.buildIndex);
+            ScoreController.StartForLevel(LevelIndex);
         _steamVrPlayer.transform.position = StartPlayerPosition.position;
         _steamVrPlayer.transform.rotation = StartPlayerPosition.rotation;
     }
