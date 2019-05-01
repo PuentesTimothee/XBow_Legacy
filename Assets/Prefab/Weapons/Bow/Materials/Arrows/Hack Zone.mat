@@ -62,8 +62,8 @@ Material:
     m_Floats:
     - Vector1_1CADC786: 1
     - Vector1_6C9FF63C: 3
-    - Vector1_AF43CB15: 2
-    - Vector1_EA88C09: 0
+    - Vector1_AF43CB15: 0.5
+    - Vector1_EA88C09: 0.1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
