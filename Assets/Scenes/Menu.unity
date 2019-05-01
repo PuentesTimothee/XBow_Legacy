@@ -3705,7 +3705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1605238738
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4161,15 +4161,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807653893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 342.9}
-  m_LocalScale: {x: 275.49695, y: 165.29817, z: 27.549694}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 644885843}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.7, y: 106.2}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1807653895
@@ -5276,17 +5276,17 @@ PrefabInstance:
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -12.5
       objectReference: {fileID: 0}
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
@@ -5301,7 +5301,7 @@ PrefabInstance:
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
@@ -5311,7 +5311,7 @@ PrefabInstance:
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 900574375978128346, guid: b096ceba0db8c694cb1eafa0e33dc0e4,
         type: 3}
