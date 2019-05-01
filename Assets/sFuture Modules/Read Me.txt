@@ -1,0 +1,1 @@
+Before you start the demoscene download FPSController from standardassets and drop it in the scene, so you can run anround and look.

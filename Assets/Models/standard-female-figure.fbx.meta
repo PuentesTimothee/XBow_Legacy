@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 4e5d1765fa614f748a2c5321cfc2b396
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body_M_GeoRndr
+    100002: Camera_Perspective10
+    100004: GumsLower_M_GeoRndr
+    100006: GumsUpper_M_GeoRndr
+    100008: InnerEye_L_GeoRndr
+    100010: InnerEye_R_GeoRndr
+    100012: OuterEye_L_GeoRndr
+    100014: OuterEye_R_GeoRndr
+    100016: //RootNode
+    100018: TeethLower_M_GeoRndr
+    100020: TeethUpper_M_GeoRndr
+    100022: Tongue_M_GeoRndr
+    400000: Body_M_GeoRndr
+    400002: Camera_Perspective10
+    400004: GumsLower_M_GeoRndr
+    400006: GumsUpper_M_GeoRndr
+    400008: InnerEye_L_GeoRndr
+    400010: InnerEye_R_GeoRndr
+    400012: OuterEye_L_GeoRndr
+    400014: OuterEye_R_GeoRndr
+    400016: //RootNode
+    400018: TeethLower_M_GeoRndr
+    400020: TeethUpper_M_GeoRndr
+    400022: Tongue_M_GeoRndr
+    2000000: Camera_Perspective10
+    2100000: e25d1f
+    2100002: d70e6f
+    2100004: ffffff
+    2100006: 618f43
+    2100008: bfbfbf
+    2100010: d126aa
+    2100012: af05cf
+    2100014: 18a3f8
+    2100016: dd9681
+    2300000: Body_M_GeoRndr
+    2300002: GumsLower_M_GeoRndr
+    2300004: GumsUpper_M_GeoRndr
+    2300006: InnerEye_L_GeoRndr
+    2300008: InnerEye_R_GeoRndr
+    2300010: OuterEye_L_GeoRndr
+    2300012: OuterEye_R_GeoRndr
+    2300014: TeethLower_M_GeoRndr
+    2300016: TeethUpper_M_GeoRndr
+    2300018: Tongue_M_GeoRndr
+    3300000: Body_M_GeoRndr
+    3300002: GumsLower_M_GeoRndr
+    3300004: GumsUpper_M_GeoRndr
+    3300006: InnerEye_L_GeoRndr
+    3300008: InnerEye_R_GeoRndr
+    3300010: OuterEye_L_GeoRndr
+    3300012: OuterEye_R_GeoRndr
+    3300014: TeethLower_M_GeoRndr
+    3300016: TeethUpper_M_GeoRndr
+    3300018: Tongue_M_GeoRndr
+    4300000: InnerEye_L_GeoRndr
+    4300002: InnerEye_R_GeoRndr
+    4300004: OuterEye_L_GeoRndr
+    4300006: TeethUpper_M_GeoRndr
+    4300008: Body_M_GeoRndr
+    4300010: GumsLower_M_GeoRndr
+    4300012: TeethLower_M_GeoRndr
+    4300014: Tongue_M_GeoRndr
+    4300016: GumsUpper_M_GeoRndr
+    4300018: OuterEye_R_GeoRndr
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
