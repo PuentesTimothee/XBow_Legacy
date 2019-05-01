@@ -25,17 +25,7 @@ public class SwitchMenu : MonoBehaviour
         anim_.ResetTrigger(bopHash);
         triggered = true;
         anim_.SetTrigger(animHash);
-        ShowMenu();
-    }
-
-    private void ShowMenu()
-    {
         menu.SetActive(true);
-    }
-
-    public void OnMouseDown()
-    {
-        TriggerAnimation();
     }
 
     public void OnMouseEnter()
