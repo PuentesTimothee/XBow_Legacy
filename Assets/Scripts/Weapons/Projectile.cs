@@ -214,7 +214,7 @@ namespace Weapons
             {
                 var rbSpeed = MainRigidbody.velocity;
                 /*  Code to use is we want to pass throught some object
-				if ( hitBalloon )
+				if ( true )
 				{
 					// Revert my physics properties cause I don't want balloons to influence my travel
 					transform.position = _prevPosition;
@@ -224,10 +224,6 @@ namespace Weapons
 					Physics.IgnoreCollision( shaftRB.GetComponent<Collider>(), collision.collider );
 				}
                  */
-
-                {
-                    //Implement Damage around there
-                }
                 
                 if (CanStick(rbSpeed.sqrMagnitude))
                     StickInTarget(collision, rbSpeed);
@@ -255,7 +251,7 @@ namespace Weapons
             if (MaxPenetration > 0)
                 penetration = _prevVelocity.normalized * Util.RemapNumberClamped(_prevVelocity.magnitude, 0f, MaxPenetrationRequiredSpeed, 0.0f, MaxPenetration);
             transform.position = transform.position + penetration;
-            
+
         }
         #endregion
     }

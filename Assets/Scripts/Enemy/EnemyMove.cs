@@ -129,7 +129,8 @@ public class EnemyMove : MonoBehaviour {
 		if (_dead)
 			return;
 		hp -= damage;
-		ScoreController.Instance.AddScore(points, transform);
+		if (ScoreController.Instance != null)
+			ScoreController.Instance.AddScore(points, transform);
 		if (hp <= 0)
 		{
 			Vector3 direction = position - transform.position;
