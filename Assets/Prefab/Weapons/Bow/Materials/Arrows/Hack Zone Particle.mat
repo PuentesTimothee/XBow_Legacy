@@ -7,15 +7,17 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hack Zone
-  m_Shader: {fileID: 4800000, guid: 547996412cd37a84197506807d05c6ad, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_Name: Hack Zone Particle
+  m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - ALWAYS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -61,36 +63,54 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1CADC786: 1
-    - Vector1_6C9FF63C: 1
-    - Vector1_AF43CB15: 0.15
-    - Vector1_EA88C09: 0.25
+    - Vector1_6C9FF63C: 3
+    - Vector1_AF43CB15: 0.5
+    - Vector1_EA88C09: 0.1
     - _AlphaClip: 0
     - _Blend: 0
+    - _BlendOp: 0
     - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DstBlend: 0
+    - _DstBlend: 10
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
+    - _GlossinessSource: 0
     - _GlossyReflections: 1
+    - _LightingEnabled: 0
     - _Metallic: 0
+    - _Mode: 2
     - _OcclusionStrength: 1
     - _ReceiveShadows: 1
+    - _Shininess: 1
     - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecSource: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _Surface: 0
     - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
-    - Color_5D19A627: {r: 0.687127, g: 0.21516584, b: 0.93092155, a: 0}
-    - Color_B488B937: {r: 1, g: 0.54007554, b: 0, a: 0}
+    - Color_5D19A627: {r: 1.0127319, g: 0.1284994, b: 1.602463, a: 0}
+    - Color_B488B937: {r: 0.7169812, g: 0.14542542, b: 0.45709178, a: 0}
     - Vector2_48F1F791: {r: 0.5, g: -0.5, b: 0, a: 0}
     - Vector2_4AA0DE2E: {r: -0.1, g: 0.2, b: 0, a: 0}
-    - Vector2_77C58345: {r: 2.5, g: 3, b: 0, a: 0}
+    - Vector2_77C58345: {r: 7.5, g: 12, b: 0, a: 0}
     - Vector2_F3B569D0: {r: 25, g: 7.5, b: 0, a: 0}
     - Vector3_71A9D5A5: {r: 50, g: 50, b: 50, a: 0}
     - Vector4_815C09A: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 1.2596959, g: 1.2596959, b: 1.2596959, a: 0.78431374}
+    - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1.1698112, g: 1.1698112, b: 1.1698112, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

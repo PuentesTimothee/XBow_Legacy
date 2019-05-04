@@ -245,13 +245,12 @@ namespace Weapons
                 rb.angularVelocity = Vector3.zero;
             });
             
-            transform.parent =  collision.collider.transform;
             transform.rotation = _prevRotation;
             Vector3 penetration = Vector3.zero;
             if (MaxPenetration > 0)
                 penetration = _prevVelocity.normalized * Util.RemapNumberClamped(_prevVelocity.magnitude, 0f, MaxPenetrationRequiredSpeed, 0.0f, MaxPenetration);
             transform.position = transform.position + penetration;
-
+            transform.parent =  collision.collider.transform;
         }
         #endregion
     }

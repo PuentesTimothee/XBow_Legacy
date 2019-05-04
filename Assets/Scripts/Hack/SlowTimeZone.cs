@@ -7,7 +7,7 @@ namespace Hack
     public class SlowTimeZone : MonoBehaviour
     {
         public Animator Animator;
-
+        
         public bool AllowToReturnToSpeed = true;
         public float ZoneLingerTime = 5f;
         
@@ -27,7 +27,6 @@ namespace Hack
             transform.parent = null;
             Animator.SetTrigger(_hashOnCollision);
             yield return new WaitForSeconds(ZoneLingerTime);
-            gameObject.SetActive(false);
             Destroy(gameObject);
         }
     }

@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: f4a834d74cc8f3841aa5eeabf06739bb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_Sun: {fileID: 843828965}
+  m_IndirectSpecularColor: {r: 0.020300819, g: 0.0067263665, b: 0.012895115, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -297,17 +297,1792 @@ PrefabInstance:
     - target: {fileID: 8571824444635846741, guid: 29ee24abf3b978547921fbbc42cb1ea2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3855202
+      value: 0.38206172
       objectReference: {fileID: 0}
     - target: {fileID: 8571824444635846741, guid: 29ee24abf3b978547921fbbc42cb1ea2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0771438
+      value: 1.2758863
       objectReference: {fileID: 0}
     - target: {fileID: 8571824444635846741, guid: 29ee24abf3b978547921fbbc42cb1ea2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.036453724
+      value: 0.0013830662
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571824444635846741, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.71975046
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571824444635846741, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.072032206
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571824444635846741, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6831349
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571824444635846741, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.10048577
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219130, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.021192072
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219130, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.104257
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219130, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0073377867
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219130, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99429756
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219130, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.031595383
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219130, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.1361885
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219130, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.33383968
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219168, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.06515869
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219168, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14061219
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219168, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.982003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219168, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.1079476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219168, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.53254145
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218732, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.037612293
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218732, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.097852595
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218732, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9929296
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218732, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.055687957
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218732, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5325411
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218722, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0470222
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218722, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.016941411
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218722, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0065155914
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218722, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.998729
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218722, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218722, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.06762893
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423984029553181250, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].x
+      value: 0.008938074
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423984029553181250, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].y
+      value: 0.19788009
+      objectReference: {fileID: 0}
+    - target: {fileID: 3423984029553181250, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].z
+      value: 0.03878236
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218720, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.02531268
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218720, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.034235343
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218720, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.011318044
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218720, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99902904
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218720, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.366116e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218720, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219156, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.22949769
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219156, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.051691685
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219156, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0014837324
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219156, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9719345
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219156, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000000018626451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219156, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.6341057
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219156, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000009313226
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219176, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.21753512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219176, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08934045
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219176, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0011801897
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219176, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9719544
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219176, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000013038516
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219176, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.6342096
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219176, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219122, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.04311157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219122, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.038900472
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219122, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.06294349
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219122, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99632645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219122, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000008584732
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219122, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.331827
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219122, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000047591357
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219198, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.014022347
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219198, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.03396789
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219198, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.07201987
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219198, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.996726
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219198, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000033039078
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219198, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.332027
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219198, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000040521445
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218726, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.077928536
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218726, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.032878753
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218726, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.014803646
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218726, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99630666
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218726, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.69636e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218726, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219194, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.564711
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219194, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.03146778
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219194, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.042450164
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219194, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.82359535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219194, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000027939677
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219194, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.083487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219194, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219134, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5050721
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219134, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.06339594
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219134, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.05317764
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219134, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8591015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219134, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000009313226
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219134, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.08412
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219134, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219174, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00025501847
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219174, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.018111765
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219174, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.06086427
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219174, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0908407e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219174, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219110, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.051397976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219110, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0042979717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219110, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.065390706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219110, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.1641061e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219170, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.33581775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219170, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.044647217
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219170, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.014564753
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219170, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9407556
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219170, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219170, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9513927
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219170, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00000035762787
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219132, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.002126813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219132, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08323498
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219132, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.13671555
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219132, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9871051
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219132, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0000007800287
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219132, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5782752
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219132, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000063548737
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219128, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5031257
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219128, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.043059997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219128, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.03407438
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219128, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.862467
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219128, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000021979213
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219128, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4308817
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219128, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219182, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.56489027
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219182, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.42184073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219182, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.57366765
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219182, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.41695908
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219182, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.014528178
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219088, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.14371064
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219088, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0030297139
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219088, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.31505385
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219088, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9381254
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219088, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3361627
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219088, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37607366
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219088, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07074821
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219072, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.20786159
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219072, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.008925153
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219072, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.049111698
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219072, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9768838
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219072, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3803159
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219072, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.083841
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219072, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.016553849
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219094, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00863302
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219094, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.024671704
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219094, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19617999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219094, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9802195
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219094, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.010962144
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219094, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40733618
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219094, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219120, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.034123484
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219120, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0058701313
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219120, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.094242655
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219120, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.994947
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219120, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3739127
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219120, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1647168
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219120, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.009937257
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219080, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.10689344
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219080, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.006116508
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219080, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.070882365
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219080, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99172175
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219080, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.13676262
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219080, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1622766
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219080, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0047631646
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219096, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.1551645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219096, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0020821688
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219096, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0644742
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219096, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9857803
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219096, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.13035718
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219096, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1578771
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219096, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0052434206
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219078, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15172082
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219078, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00010493396
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219078, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0060617467
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219078, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98840487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219078, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00030085412
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219078, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39853105
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219078, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00000025836817
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219102, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.18199405
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219102, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00004522502
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219102, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0052221413
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219102, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9832858
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219102, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00039243835
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219102, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41400433
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219102, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000035351968
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219100, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15575273
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219100, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000068038695
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219100, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.006256639
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219100, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9877763
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219100, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00049192185
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219100, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37164575
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219100, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000017388174
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219092, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.006776002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219092, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0242581
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219092, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.11411187
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219092, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9931486
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219092, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.043542206
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219092, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36556852
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219092, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219126, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15162516
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219126, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000008389352
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219126, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.005649327
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219126, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.988422
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219126, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00033344197
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219126, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37049013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219126, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000004789399
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219086, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15179111
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219086, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00008897483
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219086, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0049198866
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219086, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9884004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219086, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00026790917
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219086, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.43849292
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219086, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000003876521
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219076, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.14390527
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219076, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000088006236
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219076, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0050898925
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219076, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98957837
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219076, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00006384848
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219076, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.32150188
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219076, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000023304892
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219124, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0703474
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219124, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00004465132
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219124, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0018050517
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219124, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9975209
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219124, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00028889423
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219124, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.34766778
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219124, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000054914653
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219084, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.16050492
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219084, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000052928917
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219084, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.005995094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219084, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98701686
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219084, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00019562503
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219084, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.41405216
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219084, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000005198708
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218730, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5631211
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218730, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.42290375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218730, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.57530946
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218730, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.41601217
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218730, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.018207468
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219172, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.46618238
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219172, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08192553
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219172, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.005245497
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219172, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8808716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219172, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000026263297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219172, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4308813
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219172, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000002682209
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219192, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0031312704
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219192, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.04861881
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219192, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15717205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219192, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9863688
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219192, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0000005509909
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219192, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.578253
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219192, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000000111820555
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218734, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.35626101
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218734, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.044300914
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218734, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.014506221
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218734, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.933223
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218734, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000000011175871
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218734, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.944638
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887218734, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219164, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.13967614
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219164, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00057334075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219164, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.29703006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219164, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.944597
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219164, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.37369817
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219164, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39619914
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219164, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07547082
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219148, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.20189676
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219148, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.010575085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219148, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.049045406
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219148, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.97812086
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219148, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.38725305
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219148, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0926933
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219148, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.015786529
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219140, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.14952256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219140, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00645548
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219140, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06374897
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219140, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.98668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219140, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.120957255
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219140, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1151677
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219140, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02936405
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219188, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10093126
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219188, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.004576355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219188, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.07052475
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219188, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99238014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219188, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1380603
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219188, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1582283
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219188, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.019061547
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219162, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.18190709
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219162, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000088721514
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219162, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0070533752
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219162, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9832905
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219162, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00063568976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219162, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4135061
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219162, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00000025664485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219196, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.028234355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219196, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0061305156
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219196, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0950819
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219196, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99505013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219196, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.37015095
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219196, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1614715
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219196, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.010242507
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219154, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.010656625
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219154, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0251909
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219154, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.13067245
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219154, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9910483
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219154, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.028573409
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219154, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.43893972
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219154, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219146, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.15175994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219146, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00006282328
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219146, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.005375831
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219146, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.98840284
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219146, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00007401864
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219146, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4460422
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219146, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000017764069
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219186, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.15164518
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219186, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000051319592
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219186, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0061001023
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219186, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9884162
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219186, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00038219203
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219186, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3630485
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219186, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000048068614
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219152, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0077684913
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219152, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.02350882
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219152, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.04992771
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219152, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9984459
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219152, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.008306578
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219152, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3469367
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219152, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000004172325
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219138, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.1516594
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219138, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00015094876
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219138, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.006359309
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219138, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9884124
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219138, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00009185957
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219138, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39120778
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219138, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000028049772
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219136, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.14382954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219136, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000022053716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219136, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.008869573
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219136, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.98956275
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219136, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00061045896
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219136, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31920475
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219136, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000000015907062
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219144, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.16047114
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219144, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000064373007
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219144, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0071865157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219144, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9870144
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219144, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00040801795
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219144, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4150657
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219144, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000005791121
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219184, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0703807
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219184, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000056147575
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219184, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0032197824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219184, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9975151
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219184, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00004750818
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219184, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35213292
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219184, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00000024057954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219160, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.1556458
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219160, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000110685825
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219160, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0086337775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219160, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9877752
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219160, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00075317087
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219160, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39605838
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533024820887219160, guid: 29ee24abf3b978547921fbbc42cb1ea2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000041876774
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29ee24abf3b978547921fbbc42cb1ea2, type: 3}
@@ -316,6 +2091,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6083712222204797405, guid: 5bc6f15089689554284aabd2c69af1b9,
     type: 3}
   m_PrefabInstance: {fileID: 1339027991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &711484373 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8480921833147684199, guid: f336f91b0d603cb498c8e523d8102889,
+    type: 3}
+  m_PrefabInstance: {fileID: 1174715652}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &843828964
 GameObject:
@@ -344,8 +2125,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.8248169, g: 0.3176471, b: 0.8980392, a: 1}
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -437,7 +2218,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 120
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -463,7 +2244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896136180}
   m_LocalRotation: {x: 0.070348054, y: -0.70359874, z: 0.070348054, w: 0.7035988}
-  m_LocalPosition: {x: 3.114, y: 1.794, z: 0}
+  m_LocalPosition: {x: 4.782, y: 1.714, z: 0.308}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -523,12 +2304,4787 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
+  m_ShowToolkit: 1
   m_ShowCustomSorter: 0
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1 &924584928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924584931}
+  - component: {fileID: 924584930}
+  - component: {fileID: 924584929}
+  m_Layer: 0
+  m_Name: Pop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!198 &924584929
+ParticleSystem:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924584928}
+  serializedVersion: 6
+  lengthInSec: 5.1
+  simulationSpeed: 1
+  stopAction: 0
+  cullingMode: 0
+  ringBufferMode: 0
+  ringBufferLoopRange: {x: 0, y: 1}
+  looping: 1
+  prewarm: 0
+  playOnAwake: 1
+  useUnscaledTime: 0
+  autoRandomSeed: 1
+  useRigidbodyForVelocity: 1
+  startDelay:
+    serializedVersion: 2
+    minMaxState: 0
+    scalar: 0
+    minScalar: 0
+    maxCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    minCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  moveWithTransform: 1
+  moveWithCustomTransform: {fileID: 0}
+  scalingMode: 1
+  randomSeed: 0
+  InitialModule:
+    serializedVersion: 3
+    enabled: 1
+    startLifetime:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 5
+      minScalar: 5
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startSpeed:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0.25
+      minScalar: 0.1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startColor:
+      serializedVersion: 2
+      minMaxState: 0
+      minColor: {r: 0.9056604, g: 0.14097545, b: 0.1557995, a: 0.19607843}
+      maxColor: {r: 0.7490196, g: 0.21568628, b: 0.5647059, a: 1}
+      maxGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      minGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+    startSize:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0.05
+      minScalar: 0.01
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startSizeY:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startSizeZ:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startRotationX:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startRotationY:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startRotation:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    randomizeRotationDirection: 0
+    maxNumParticles: 1000
+    size3D: 0
+    rotation3D: 0
+    gravityModifier:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  ShapeModule:
+    serializedVersion: 6
+    enabled: 1
+    type: 13
+    angle: 25
+    length: 5
+    boxThickness: {x: 0, y: 0, z: 0}
+    radiusThickness: 0
+    donutRadius: 0.2
+    m_Position: {x: 0, y: 0, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0}
+    m_Scale: {x: 1, y: 1, z: 1}
+    placementMode: 0
+    m_MeshMaterialIndex: 0
+    m_MeshNormalOffset: 0
+    m_MeshSpawn:
+      mode: 0
+      spread: 0
+      speed:
+        serializedVersion: 2
+        minMaxState: 0
+        scalar: 1
+        minScalar: 1
+        maxCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+    m_Mesh: {fileID: 0}
+    m_MeshRenderer: {fileID: 711484373}
+    m_SkinnedMeshRenderer: {fileID: 0}
+    m_Sprite: {fileID: 0}
+    m_SpriteRenderer: {fileID: 0}
+    m_UseMeshMaterialIndex: 0
+    m_UseMeshColors: 0
+    alignToDirection: 1
+    m_Texture: {fileID: 0}
+    m_TextureClipChannel: 3
+    m_TextureClipThreshold: 0
+    m_TextureUVChannel: 0
+    m_TextureColorAffectsParticles: 1
+    m_TextureAlphaAffectsParticles: 1
+    m_TextureBilinearFiltering: 0
+    randomDirectionAmount: 0
+    sphericalDirectionAmount: 0
+    randomPositionAmount: 0
+    radius:
+      value: 0.5
+      mode: 0
+      spread: 0
+      speed:
+        serializedVersion: 2
+        minMaxState: 0
+        scalar: 1
+        minScalar: 1
+        maxCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+    arc:
+      value: 360
+      mode: 0
+      spread: 0
+      speed:
+        serializedVersion: 2
+        minMaxState: 0
+        scalar: 1
+        minScalar: 1
+        maxCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+  EmissionModule:
+    enabled: 1
+    serializedVersion: 4
+    rateOverTime:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 10
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    rateOverDistance:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_BurstCount: 1
+    m_Bursts:
+    - serializedVersion: 2
+      time: 0
+      countCurve:
+        serializedVersion: 2
+        minMaxState: 0
+        scalar: 150
+        minScalar: 250
+        maxCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        minCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+      cycleCount: 1
+      repeatInterval: 0.01
+      probability: 1
+  SizeModule:
+    enabled: 1
+    curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.25
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    y:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    z:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    separateAxes: 0
+  RotationModule:
+    enabled: 0
+    x:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    y:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    curve:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0.7853982
+      minScalar: 0.7853982
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    separateAxes: 0
+  ColorModule:
+    enabled: 1
+    gradient:
+      serializedVersion: 2
+      minMaxState: 1
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxGradient:
+        serializedVersion: 2
+        key0: {r: 2, g: 2, b: 2, a: 0}
+        key1: {r: 2, g: 2, b: 2, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 1}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 6554
+        atime2: 62258
+        atime3: 65535
+        atime4: 65535
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 4
+      minGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+  UVModule:
+    enabled: 0
+    mode: 0
+    timeMode: 0
+    fps: 30
+    frameOverTime:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 0.9999
+      minScalar: 0.9999
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    startFrame:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    speedRange: {x: 0, y: 1}
+    tilesX: 2
+    tilesY: 2
+    animationType: 0
+    rowIndex: 0
+    cycles: 1
+    uvChannelMask: -1
+    randomRow: 1
+    sprites:
+    - sprite: {fileID: 0}
+    flipU: 0
+    flipV: 0
+  VelocityModule:
+    enabled: 1
+    x:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    y:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    z:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    orbitalX:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0.5
+      minScalar: -0.5
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    orbitalY:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0.5
+      minScalar: -0.5
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    orbitalZ:
+      serializedVersion: 2
+      minMaxState: 3
+      scalar: 0.5
+      minScalar: -0.5
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    orbitalOffsetX:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    orbitalOffsetY:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    orbitalOffsetZ:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    radial:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 0.75
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.5
+          value: -1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.75
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    speedModifier:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    inWorldSpace: 0
+  InheritVelocityModule:
+    enabled: 0
+    m_Mode: 0
+    m_Curve:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  ForceModule:
+    enabled: 0
+    x:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    y:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 5
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    z:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    inWorldSpace: 1
+    randomizePerFrame: 0
+  ExternalForcesModule:
+    enabled: 0
+    multiplier: 1
+    influenceFilter: 0
+    influenceMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    influenceList: []
+  ClampVelocityModule:
+    enabled: 0
+    x:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    y:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    z:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    magnitude:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    separateAxis: 0
+    inWorldSpace: 0
+    multiplyDragByParticleSize: 1
+    multiplyDragByParticleVelocity: 1
+    dampen: 0
+    drag:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  NoiseModule:
+    enabled: 0
+    strength:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    strengthY:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    strengthZ:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    separateAxes: 0
+    frequency: 0.5
+    damping: 1
+    octaves: 1
+    octaveMultiplier: 0.5
+    octaveScale: 2
+    quality: 2
+    scrollSpeed:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    remap:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    remapY:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    remapZ:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    remapEnabled: 0
+    positionAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    rotationAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    sizeAmount:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  SizeBySpeedModule:
+    enabled: 0
+    curve:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    y:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    z:
+      serializedVersion: 2
+      minMaxState: 1
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    range: {x: 0, y: 1}
+    separateAxes: 0
+  RotationBySpeedModule:
+    enabled: 0
+    x:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    y:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    curve:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0.7853982
+      minScalar: 0.7853982
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    separateAxes: 0
+    range: {x: 0, y: 1}
+  ColorBySpeedModule:
+    enabled: 0
+    gradient:
+      serializedVersion: 2
+      minMaxState: 1
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      minGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+    range: {x: 0, y: 1}
+  CollisionModule:
+    enabled: 0
+    serializedVersion: 3
+    type: 0
+    collisionMode: 0
+    colliderForce: 0
+    multiplyColliderForceByParticleSize: 0
+    multiplyColliderForceByParticleSpeed: 0
+    multiplyColliderForceByCollisionAngle: 1
+    plane0: {fileID: 0}
+    plane1: {fileID: 0}
+    plane2: {fileID: 0}
+    plane3: {fileID: 0}
+    plane4: {fileID: 0}
+    plane5: {fileID: 0}
+    m_Dampen:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_Bounce:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    m_EnergyLossOnCollision:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    minKillSpeed: 0
+    maxKillSpeed: 10000
+    radiusScale: 1
+    collidesWith:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    maxCollisionShapes: 256
+    quality: 0
+    voxelSize: 0.5
+    collisionMessages: 0
+    collidesWithDynamic: 1
+    interiorCollisions: 0
+  TriggerModule:
+    enabled: 0
+    collisionShape0: {fileID: 0}
+    collisionShape1: {fileID: 0}
+    collisionShape2: {fileID: 0}
+    collisionShape3: {fileID: 0}
+    collisionShape4: {fileID: 0}
+    collisionShape5: {fileID: 0}
+    inside: 1
+    outside: 0
+    enter: 0
+    exit: 0
+    radiusScale: 1
+  SubModule:
+    serializedVersion: 2
+    enabled: 0
+    subEmitters:
+    - serializedVersion: 3
+      emitter: {fileID: 0}
+      type: 0
+      properties: 0
+      emitProbability: 1
+  LightsModule:
+    enabled: 0
+    ratio: 0
+    light: {fileID: 0}
+    randomDistribution: 1
+    color: 1
+    range: 1
+    intensity: 1
+    rangeCurve:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    intensityCurve:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    maxLights: 20
+  TrailModule:
+    enabled: 0
+    mode: 0
+    ratio: 1
+    lifetime:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    minVertexDistance: 0.2
+    textureMode: 0
+    ribbonCount: 1
+    shadowBias: 0.5
+    worldSpace: 0
+    dieWithParticles: 1
+    sizeAffectsWidth: 1
+    sizeAffectsLifetime: 0
+    inheritParticleColor: 1
+    generateLightingData: 0
+    splitSubEmitterRibbons: 0
+    attachRibbonsToTransform: 0
+    colorOverLifetime:
+      serializedVersion: 2
+      minMaxState: 0
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      minGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+    widthOverTrail:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 1
+      minScalar: 1
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    colorOverTrail:
+      serializedVersion: 2
+      minMaxState: 0
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      minGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+  CustomDataModule:
+    enabled: 0
+    mode0: 0
+    vectorComponentCount0: 4
+    color0:
+      serializedVersion: 2
+      minMaxState: 0
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      minGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+    colorLabel0: Color
+    vector0_0:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel0_0: X
+    vector0_1:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel0_1: Y
+    vector0_2:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel0_2: Z
+    vector0_3:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel0_3: W
+    mode1: 0
+    vectorComponentCount1: 4
+    color1:
+      serializedVersion: 2
+      minMaxState: 0
+      minColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      minGradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+    colorLabel1: Color
+    vector1_0:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel1_0: X
+    vector1_1:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel1_1: Y
+    vector1_2:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel1_2: Z
+    vector1_3:
+      serializedVersion: 2
+      minMaxState: 0
+      scalar: 0
+      minScalar: 0
+      maxCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    vectorLabel1_3: W
+--- !u!199 &924584930
+ParticleSystemRenderer:
+  serializedVersion: 6
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924584928}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f152051c5bd1fc54fa4a7bd77aa71e99, type: 2}
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_RenderMode: 4
+  m_SortMode: 0
+  m_MinParticleSize: 0
+  m_MaxParticleSize: 0.5
+  m_CameraVelocityScale: 0
+  m_VelocityScale: 1
+  m_LengthScale: 3
+  m_SortingFudge: 0
+  m_NormalDirection: 1
+  m_ShadowBias: 0
+  m_RenderAlignment: 0
+  m_Pivot: {x: 0, y: 0, z: 0}
+  m_Flip: {x: 0, y: 0, z: 0}
+  m_UseCustomVertexStreams: 0
+  m_EnableGPUInstancing: 1
+  m_ApplyActiveColorSpace: 1
+  m_AllowRoll: 1
+  m_VertexStreams: 00010304
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh1: {fileID: 0}
+  m_Mesh2: {fileID: 0}
+  m_Mesh3: {fileID: 0}
+  m_MaskInteraction: 0
+--- !u!4 &924584931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924584928}
+  m_LocalRotation: {x: -0.000000058612564, y: 2.3092639e-14, z: -0.00000008940697,
+    w: 1}
+  m_LocalPosition: {x: 0.36, y: 0.155, z: 0.42}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1151822086
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,17 +7192,17 @@ PrefabInstance:
     - target: {fileID: 7202693784386174633, guid: f336f91b0d603cb498c8e523d8102889,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.777
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 7202693784386174633, guid: f336f91b0d603cb498c8e523d8102889,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.0543876e-17
+      value: 0.155
       objectReference: {fileID: 0}
     - target: {fileID: 7202693784386174633, guid: f336f91b0d603cb498c8e523d8102889,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.663
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 7202693784386174633, guid: f336f91b0d603cb498c8e523d8102889,
         type: 3}
@@ -687,21 +7243,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7202693784386174633, guid: f336f91b0d603cb498c8e523d8102889,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.49855
-      objectReference: {fileID: 0}
-    - target: {fileID: 7202693784386174633, guid: f336f91b0d603cb498c8e523d8102889,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.49855
-      objectReference: {fileID: 0}
-    - target: {fileID: 7202693784386174633, guid: f336f91b0d603cb498c8e523d8102889,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.49855
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f336f91b0d603cb498c8e523d8102889, type: 3}
@@ -831,7 +7372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1264488392
 MonoBehaviour:
   m_ObjectHideFlags: 0
