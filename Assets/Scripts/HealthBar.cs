@@ -4,61 +4,53 @@ using UnityEngine;
 
 public class HealthBar : MonoBehaviour
 {
-    static public HealthBar playerHealthBar;
+    public float MaxHealth;
 
-    public SceneManager sceneManager;
+    private float _health;
+    private bool _dead = true;
 
-    public float maxHealth;
-
-    private float health;
-
-    private void Start()
+    private void Update()
     {
-        health = maxHealth;
-		    playerHealthBar = this;
-	}
-
-    // Update is called once per frame
-    void Update()
-    {
-
-        if (health < 1.0)
+        if (_health <= 0 && !_dead)
         {
-          sceneManager.LoadScene("MenuDeath");
-          Debug.Log("You're DEAD !! GAME OVER !!!");
-          return;
+            _dead = true;
+            SceneManager.ActualScene.LoadScene("MenuDeath");
+            Debug.Log("You're DEAD !! GAME OVER !!!");
         }
-
     }
 
+    public void SetupForGame()
+    {
+        _health = MaxHealth;
+        _dead = false;
+    }
+
+    public void Disable()
+    {
+        _health = 0;
+        _dead = true;
+    }
+    
     public float GetHealth()
     {
-        return health;
+        return _health;
     }
+    
+    public float HealthPercentage { get { return (_health / MaxHealth); } }
 
     public void TakeDamage(float damage)
     {
-        Debug.Log("player takes " + damage + " damages");
-        if (damage > health)
-        {
-
-            health = 0;
-        }
+        if (damage > _health)
+            _health = 0;
         else
-        {
-            health -= damage;
-        }
+            _health -= damage;
     }
 
     public void Heal(float healing)
     {
-        if (healing + health > maxHealth)
-        {
-            health = maxHealth;
-        }
+        if (healing + _health > MaxHealth)
+            _health = MaxHealth;
         else
-        {
-            health += healing;
-        }
+            _health += healing;
     }
 }

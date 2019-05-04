@@ -10,15 +10,19 @@ public enum SceneType
 
 public class SceneManager : MonoBehaviour
 {
+    public static SceneManager ActualScene;
+
     public SceneType SceneType = SceneType.Game;
     public Transform StartPlayerPosition;
     public GameObject PlayerPrefab;
 
     public int LevelIndex = 1;
     private Player _steamVrPlayer;
-    
+
     private void Awake()
     {
+        ActualScene = this;
+        
         _steamVrPlayer = Player.Instance;
         if (_steamVrPlayer == null)
         {
@@ -31,7 +35,13 @@ public class SceneManager : MonoBehaviour
     {
         _steamVrPlayer.WeaponsSlot.enabled = (SceneType == SceneType.Game);
         if (SceneType == SceneType.Game)
+        {
             ScoreController.StartForLevel(LevelIndex);
+            Player.Instance.HealthBar.SetupForGame();
+        }
+        else
+            Player.Instance.HealthBar.Disable();
+
         _steamVrPlayer.transform.position = StartPlayerPosition.position;
         _steamVrPlayer.transform.rotation = StartPlayerPosition.rotation;
     }
@@ -52,6 +62,9 @@ public class SceneManager : MonoBehaviour
 
     public void QuitScene()
     {
+        if (ActualScene == this)
+            ActualScene = null;
+    
         ExitScene();
         Application.Quit();
     }

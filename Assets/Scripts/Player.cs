@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
 {
     public SteamVR_Player    SteamVrPlayer;
     public WeaponSlot        WeaponsSlot;
-
+    public HealthBar         HealthBar;
+    
     public static Player Instance { get; private set; }
 
     private void Awake()

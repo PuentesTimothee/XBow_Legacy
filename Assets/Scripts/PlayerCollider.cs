@@ -17,7 +17,7 @@ public class PlayerCollider : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         DamageTrigger weapon = other.gameObject.GetComponent<DamageTrigger>();
-        HealthBar.playerHealthBar.TakeDamage(weapon.Damage);
+        Player.Instance.HealthBar.TakeDamage(weapon.Damage);
         _impactSound.Play();
     }
 }

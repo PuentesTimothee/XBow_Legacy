@@ -93,6 +93,7 @@
           <e p="SmoothMouseLook.cs" t="Include" />
           <e p="Turn.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="HealthBarUI.cs" t="Include" />
             <e p="PopUpText.cs" t="Include" />
             <e p="PopUpTextController.cs" t="Include" />
           </e>
