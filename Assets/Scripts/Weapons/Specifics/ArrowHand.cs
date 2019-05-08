@@ -66,7 +66,6 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		private void AttachedToHand( Hand attachedHand )
 		{
-			Debug.Log("Attached");
 			_hand = attachedHand;
 			_selection = _hand.GetComponentInChildren<SelectionWheel>();
 			SetSelection();
@@ -76,7 +75,6 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		private void DetachedFromHand( Hand hand )
 		{
-			Debug.Log("Detached");
 			ClearSelection();
 		}
 		

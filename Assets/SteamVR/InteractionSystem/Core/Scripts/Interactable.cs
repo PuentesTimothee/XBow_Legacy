@@ -271,7 +271,7 @@ namespace Valve.VR.InteractionSystem
         protected float blendToPoseTime = 0.1f;
         protected float releasePoseBlendTime = 0.2f;
 
-        protected virtual void OnAttachedToHand(Hand hand)
+        public virtual void OnAttachedToHand(Hand hand)
         {
             if (activateActionSetOnAttach != null)
                 activateActionSetOnAttach.Activate(hand.handType);
@@ -289,29 +289,19 @@ namespace Valve.VR.InteractionSystem
             attachedToHand = hand;
         }
 
-        protected virtual void OnDetachedFromHand(Hand hand)
+        public virtual void OnDetachedFromHand(Hand hand)
         {
-            if (activateActionSetOnAttach != null)
-            {
-                if (hand.otherHand == null || hand.otherHand.currentAttachedObjectInfo.HasValue == false ||
-                    (hand.otherHand.currentAttachedObjectInfo.Value.interactable != null &&
-                     hand.otherHand.currentAttachedObjectInfo.Value.interactable.activateActionSetOnAttach != this.activateActionSetOnAttach))
-                {
+            if (activateActionSetOnAttach != null && 
+                (hand.otherHand == null || hand.otherHand.currentAttachedObjectInfo.HasValue == false ||
+                (hand.otherHand.currentAttachedObjectInfo.Value.interactable != null &&
+                 hand.otherHand.currentAttachedObjectInfo.Value.interactable.activateActionSetOnAttach != this.activateActionSetOnAttach)))
                     activateActionSetOnAttach.Deactivate(hand.handType);
-                }
-            }
 
             if (onDetachedFromHand != null)
-            {
                 onDetachedFromHand.Invoke(hand);
-            }
 
-
-            if (skeletonPoser != null)
-            {
-                if (hand.skeleton != null)
-                    hand.skeleton.BlendToSkeleton(releasePoseBlendTime);
-            }
+            if (skeletonPoser != null && hand.skeleton != null)
+                hand.skeleton.BlendToSkeleton(releasePoseBlendTime);
 
             attachedToHand = null;
         }
