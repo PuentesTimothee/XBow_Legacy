@@ -99,6 +99,7 @@
           </e>
           <e p="VisualEffect" t="Include">
             <e p="AppearScript.cs" t="Include" />
+            <e p="DestroyEffectAfter.cs" t="Include" />
           </e>
           <e p="Weapons" t="Include">
             <e p="DamageTrigger.cs" t="Include" />

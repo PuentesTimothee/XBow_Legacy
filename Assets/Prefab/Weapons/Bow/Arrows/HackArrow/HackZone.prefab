@@ -66,7 +66,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: 7631607480761595056}
-  Collider: {fileID: 0}
   AllowToReturnToSpeed: 1
   ZoneLingerTime: 6
 --- !u!135 &7304799850759261403
@@ -366,7 +365,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 0.9056604, g: 0.14097545, b: 0.1557995, a: 0.19607843}
-      maxColor: {r: 0.7490196, g: 0.21568628, b: 0.5647059, a: 0.78431374}
+      maxColor: {r: 0.3254902, g: 0.654902, b: 0.7490196, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1532,8 +1531,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 2, g: 2, b: 2, a: 0}
-        key1: {r: 2, g: 2, b: 2, a: 1}
+        key0: {r: 1, g: 1, b: 1, a: 0.007843138}
+        key1: {r: 1, g: 1, b: 1, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1549,8 +1548,8 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 6554
-        atime2: 62258
+        atime1: 13107
+        atime2: 52428
         atime3: 65535
         atime4: 65535
         atime5: 0
@@ -1561,9 +1560,9 @@ ParticleSystem:
         m_NumAlphaKeys: 4
       minGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 1, b: 1, a: 1}
+        key0: {r: 1, g: 1, b: 1, a: 0.007843138}
         key1: {r: 1, g: 1, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 1}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -1578,16 +1577,16 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 65535
-        atime2: 0
-        atime3: 0
+        atime1: 13107
+        atime2: 52428
+        atime3: 65535
         atime4: 0
         atime5: 0
         atime6: 0
         atime7: 0
         m_Mode: 0
         m_NumColorKeys: 2
-        m_NumAlphaKeys: 2
+        m_NumAlphaKeys: 4
   UVModule:
     enabled: 0
     mode: 0
