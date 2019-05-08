@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Valve.VR.InteractionSystem;
 
 public class WaveManager : MonoBehaviour
@@ -24,6 +25,8 @@ public class WaveManager : MonoBehaviour
     public Wave[] waves;
     public float timeBetweenWaves;      // Time between each waves
     public Transform[] spawnPoints;
+
+    public Text panelText; // Change of Wave
 
     private SpawnState state = SpawnState.COUNTING;
     private int currentWave = 0;
@@ -61,6 +64,7 @@ public class WaveManager : MonoBehaviour
                 if (currentWave < waves.Length)
                   StartCoroutine(SpawnWave(waves[currentWave]));
                 else {
+                  panelText.text = "Infinity Mode !";
                   GetComponent<EnemyManager>().enabled = true;
                   GetComponent<WaveManager>().enabled = false;
                 }
@@ -76,6 +80,8 @@ public class WaveManager : MonoBehaviour
     {
         Debug.Log("wave : " + waves[currentWave].name + " completed");
 
+        panelText.text = "Wave completed !";
+        Debug.Log(panelText.text);
         state = SpawnState.COUNTING;
         waveCountDown = timeBetweenWaves;
         if (GameObject.FindGameObjectsWithTag("Music").Length != 0) {
@@ -86,6 +92,7 @@ public class WaveManager : MonoBehaviour
         if (currentWave < waves.Length)
         {
             currentWave++;
+            panelText.text = "Wave " + currentWave;
         }
         else
         {

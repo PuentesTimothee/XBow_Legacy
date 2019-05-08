@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 namespace ScoringSystem
 {
@@ -8,19 +10,19 @@ namespace ScoringSystem
     {
         #region Variables
         public static ScoreController Instance;
-
-        public PopUpTextController ScoreDisplay;
+        public static Text ScoreDisplay;
+        
         public float ComboDuration = 2.0f;
 
         private int _score;
         private int _levelIndex = -1;
-    
+
         private bool _isComboing;
         private float _comboTimer;
         private int _comboCount;
 
         private Dictionary<int, HighScores> _scores = new Dictionary<int, HighScores>();
-    
+
         /// <summary>
         /// Get the highScore for a particular level
         /// </summary>
@@ -34,7 +36,7 @@ namespace ScoringSystem
                 return (_scores[key]);
             }
         }
-    
+
         public class HighScores
         {
             public int[] entries;
@@ -58,11 +60,11 @@ namespace ScoringSystem
                 entries = tmp.ToArray();
             }
         }
-    
+
         private readonly string _tableName = "Level_";
         private string TableName(int levelIndex) { return (_tableName + levelIndex); }
         #endregion
-    
+
         #region Methods
         private void Awake()
         {
@@ -82,13 +84,14 @@ namespace ScoringSystem
                     _comboTimer -= Time.deltaTime;
             }
         }
-    
+
         #region StartLevel
         public static void StartForLevel(int levelIndex)
         {
             Instance._StartForLevel(levelIndex);
+            ScoreDisplay = GameObject.Find("ScoreText").GetComponent<Text>();
         }
-    
+
         private void _StartForLevel(int levelIndex)
         {
             _levelIndex = levelIndex;
@@ -119,7 +122,7 @@ namespace ScoringSystem
             }
         }
         #endregion
-    
+
         #region ExitLevel
         public static void ExitLevel()
         {
@@ -142,7 +145,7 @@ namespace ScoringSystem
             tmp.Add(score);
             highScore.entries = tmp.ToArray();
             _scores[levelIndex] = highScore;
-            
+
             _scores[levelIndex].SortAscending();
 
             string json = JsonUtility.ToJson(_scores[levelIndex]);
@@ -159,7 +162,8 @@ namespace ScoringSystem
             adding += _comboCount * 100;
             _comboCount++;
             _score += adding;
-            //ScoreDisplay.CreatePopupText(adding.ToString(), location);
+            if(ScoreDisplay)
+              ScoreDisplay.text = _score.ToString();
         }
 
         #endregion
