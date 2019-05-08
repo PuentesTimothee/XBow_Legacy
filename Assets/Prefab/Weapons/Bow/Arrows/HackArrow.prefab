@@ -163,6 +163,39 @@ PrefabInstance:
       propertyPath: OnCollision.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1281225511, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460240, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+      propertyPath: waveFiles.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460240, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+      propertyPath: waveFiles.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3db3457f42b06904dbdc95de1a145468, type: 3}
+    - target: {fileID: 11460240, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+      propertyPath: waveFiles.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e1a13f37c417219489589d5b704465d8, type: 3}
+    - target: {fileID: 11460240, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+      propertyPath: waveFiles.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 94d3e8391bdb5be4da46ec985afdc89d, type: 3}
+    - target: {fileID: 11460240, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+      propertyPath: waveFiles.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: b1f0aa44d329dfd42923e0161cc67635, type: 3}
+    - target: {fileID: 11460240, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+      propertyPath: waveFiles.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d1a5ee30e98c204f9cd4644f05b8636, type: 3}
+    - target: {fileID: 23000012097123862, guid: 81fc1450441aca64e8cc1a0e14b1aa77,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c4ef826df962c244b68f1a01873e899, type: 2}
     - target: {fileID: 3533941538921268821, guid: 81fc1450441aca64e8cc1a0e14b1aa77,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
@@ -173,11 +206,6 @@ PrefabInstance:
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.61960787
       objectReference: {fileID: 0}
-    - target: {fileID: 23000012097123862, guid: 81fc1450441aca64e8cc1a0e14b1aa77,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1c4ef826df962c244b68f1a01873e899, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
 --- !u!4 &8649252480402848613 stripped
