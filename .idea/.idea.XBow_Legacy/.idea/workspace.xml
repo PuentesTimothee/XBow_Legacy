@@ -2,36 +2,247 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c1b778-520c-4d85-bec2-8da835674ce2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.XBow_Legacy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XBow_Legacy/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Music/Tests.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Shader/VFX/HackZone.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Shader/VFX/HackZone.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Shader/VFX/NoiseDisplacement.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Shader/VFX/NoiseDisplacement.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Male_Eyes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Male_Eyes.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Male_Skin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Male_Skin.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken_Border.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken_Border.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/BasePostProcess.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/BasePostProcess.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemies/WarriorPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemies/WarriorPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.XBow_Legacy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XBow_Legacy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Materials/HologramLines_Cool.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Texture/Materials/HologramLines_Cool.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Beard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Beard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Belt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Belt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Boots.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Boots.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Decorations.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Decorations.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Gear.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Gear.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Hair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Helmet.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Helmet.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Jacket.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Jacket.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Mask.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Mask.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Skin.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Skin.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Trousers.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Materials/Trousers.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Red Brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Red Brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/Model Materials/Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/ma.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Models/ma.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Assassin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Assassin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Black Ninja.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Black Ninja.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Boss 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Boss 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Boss 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Boss 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Guard 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Guard 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Guard 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Guard 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Guard 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Guard 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Player 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Player 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Player 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Player 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Player 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Player 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Trooper 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Trooper 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Trooper 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Trooper 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Trooper 3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/Trooper 3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/White Ninja.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Prefabs/White Ninja.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Scenes/Demo Assets Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Martial Arts Assets Free/Scenes/Demo Assets Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ArcherAnim.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ArcherAnim.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ArcherAnimNinja.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ArcherAnimNinja.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ArmoredWarrior.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/ArmoredWarrior.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/MaleFigure.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/MaleFigure.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Male_Eyes.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Male_Eyes.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Male_Skin.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Male_Skin.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NinjaWarriorAnim.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/NinjaWarriorAnim.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/WarriorAnim.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/WarriorAnim.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/standard-female-figure.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/standard-female-figure.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/standard-male-figure.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/standard-male-figure.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Kama.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Kama.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Kunai.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Kunai.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Naginata01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Naginata01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Naginata02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Naginata02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Ninja-to sheath.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Ninja-to sheath.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Ninja-to.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Ninja-to.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Shuriken04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Windmill Shuriken.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/Windmill Shuriken.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/fukiya dart.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/fukiya dart.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/fukiya.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/fukiya.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Kama.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Kama.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Kunai.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Kunai.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Default_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Default_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Fukiya.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Fukiya.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Kama.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Kama.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Kama.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Kama.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Kama_emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Kama_emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Materials.cubemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Materials.cubemap.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NegativeX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NegativeX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NegativeY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NegativeY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NegativeZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NegativeZ.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NinjaTo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/NinjaTo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/PositiveX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/PositiveX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/PositiveY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/PositiveY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/PositiveZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/PositiveZ.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/SwordMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/SwordMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Windmill Shuriken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Windmill Shuriken.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Windmill Shuriken.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/Windmill Shuriken.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/WindmillShuriken_emission.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/WindmillShuriken_emission.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/fukiya.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/fukiya.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/matchaku.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/matchaku.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/naginata.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/naginata.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/naginata.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/naginata.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/ninjasword.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/ninjasword.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/ninjasword_emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/ninjasword_emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/nunchaku.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/nunchaku.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/nunchaku.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/nunchaku.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shirikenbig01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shirikenbig01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken02.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken02.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken02_emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken02_emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken_Border.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken_Border.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken_Full.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/shriken_Full.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/swordninjatem01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/swordninjatem01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/swordninjatem1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/swordninjatem1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/swordninjatem2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Materials/swordninjatem2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Naginata01.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Naginata01.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Naginata02.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Naginata02.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Ninja-to sheath.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Ninja-to sheath.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Ninja-to.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Ninja-to.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken01.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken01.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken02.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken02.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken03.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken03.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken04.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Shuriken04.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Windmill Shuriken.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/Windmill Shuriken.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/fukiya dart.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/fukiya dart.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/fukiya.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/fukiya.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/nunchaku.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/models/nunchaku.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/nunchaku.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ninja Weapons Pack/nunchaku.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Enemies/Enemy Armored.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Enemies/Enemy Armored.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Arrows/Arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Arrows/Arrow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Arrows/HackArrow/HackZone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Arrows/HackArrow/HackZone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Arrow Hack Tip.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Arrow Hack Tip.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Arrow Tip.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Arrow Tip.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Arrow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Arrow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Hack Zone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/Hack Zone.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ChargingParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ChargingParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ChargingWind 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ChargingWind 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ChargingWind.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ChargingWind.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ReleaseWind Offset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ReleaseWind Offset.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ReleaseWind.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/ReleaseWind.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Arrows/HackArrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Arrows/HackArrow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/ArcheryTargetWeeble.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/ArcheryTargetWeeble.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/Trail 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Arrows/VFX Base/Trail 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Longbow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/Longbow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Enemy/Sword Blade Enemy.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Enemy/Sword Blade Enemy.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Enemy/Sword Tilt Enemy.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Enemy/Sword Tilt Enemy.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Player/Sword Blade Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Player/Sword Blade Player.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Player/Sword Tilt Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Sword/Player/Sword Tilt Player.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/LongbowNotch.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/LongbowNotch.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/LongbowString.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/LongbowString.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/TorchHead.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/TorchHead.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/TorchShaft.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Weapons/Bow/Materials/TorchShaft.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestsScene/TestShader.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestsScene/TestShader.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,17 +254,17 @@
     <session id="1067824459">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="colors" value="1" />
+          <entry key="colors" value="2" />
           <entry key="cs" value="23" />
           <entry key="unity" value="1" />
         </counts>
@@ -61,19 +272,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C#" value="23" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="colors" value="17" />
+          <entry key="colors" value="27" />
           <entry key="cs" value="3057" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="3057" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
     </session>
@@ -167,11 +378,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="405">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
                 <marker date="1556963351118" expanded="false" signature="6:78" ph="..." />
                 <marker date="1556963351118" expanded="true" signature="118:1098" ph="{...}" />
@@ -212,7 +423,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Specifics/Arrows/Arrow.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -228,6 +439,15 @@
                 <marker date="1557285078500" expanded="true" signature="878:1055" ph="{...}" />
                 <marker date="1557285078500" expanded="true" signature="1120:1219" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/Xbow Player Palette.colors">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -293,6 +513,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/HealthBarUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/Xbow Enemy Palette.colors" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Xbow Player Palette.colors" />
       </list>
     </option>
   </component>
@@ -314,6 +535,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -334,9 +558,6 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -388,12 +609,13 @@
       <workItem from="1556796903341" duration="4047000" />
       <workItem from="1556933418983" duration="3954000" />
       <workItem from="1556960516717" duration="2324000" />
-      <workItem from="1557299129952" duration="604000" />
+      <workItem from="1557299129952" duration="810000" />
+      <workItem from="1557304208825" duration="675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20660000" />
+    <option name="totallyTimeSpent" value="21541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,7 +630,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -519,12 +741,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <marker date="1556943293551" expanded="false" signature="6:127" ph="..." />
-            <marker date="1556943293551" expanded="true" signature="172:581" ph="{...}" />
-            <marker date="1556943293551" expanded="true" signature="242:349" ph="{...}" />
-            <marker date="1556943293551" expanded="true" signature="398:579" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/Xbow Enemy Palette.colors">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -592,20 +815,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthBarUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
           <folding>
-            <marker date="1556963351118" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556963351118" expanded="true" signature="118:1098" ph="{...}" />
-            <marker date="1556963351118" expanded="true" signature="234:444" ph="{...}" />
-            <marker date="1556963351118" expanded="true" signature="276:438" ph="{...}" />
-            <marker date="1556963351118" expanded="true" signature="476:540" ph="{...}" />
-            <marker date="1556963351118" expanded="true" signature="567:622" ph="{...}" />
-            <marker date="1556963351118" expanded="true" signature="656:692" ph="{...}" />
-            <marker date="1556963351118" expanded="true" signature="815:926" ph="{...}" />
-            <marker date="1556963351118" expanded="true" signature="963:1096" ph="{...}" />
+            <marker date="1556963358127" expanded="true" signature="6:40" ph="..." />
+            <marker date="1556963358127" expanded="true" signature="54:301" ph="{...}" />
+            <marker date="1556963358127" expanded="true" signature="101:299" ph="{...}" />
+            <marker date="1556963358127" expanded="true" signature="214:293" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -631,26 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/HealthBarUI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <marker date="1556963358127" expanded="true" signature="6:40" ph="..." />
-            <marker date="1556963358127" expanded="true" signature="54:301" ph="{...}" />
-            <marker date="1556963358127" expanded="true" signature="101:299" ph="{...}" />
-            <marker date="1556963358127" expanded="true" signature="214:293" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Editor/Xbow Enemy Palette.colors">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Specifics/Arrows/Arrow.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -665,6 +863,31 @@
             <marker date="1557285078500" expanded="true" signature="743:826" ph="{...}" />
             <marker date="1557285078500" expanded="true" signature="878:1055" ph="{...}" />
             <marker date="1557285078500" expanded="true" signature="1120:1219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/Xbow Player Palette.colors">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <marker date="1556963351118" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556963351118" expanded="true" signature="118:1098" ph="{...}" />
+            <marker date="1556963351118" expanded="true" signature="234:444" ph="{...}" />
+            <marker date="1556963351118" expanded="true" signature="276:438" ph="{...}" />
+            <marker date="1556963351118" expanded="true" signature="476:540" ph="{...}" />
+            <marker date="1556963351118" expanded="true" signature="567:622" ph="{...}" />
+            <marker date="1556963351118" expanded="true" signature="656:692" ph="{...}" />
+            <marker date="1556963351118" expanded="true" signature="815:926" ph="{...}" />
+            <marker date="1556963351118" expanded="true" signature="963:1096" ph="{...}" />
           </folding>
         </state>
       </provider>

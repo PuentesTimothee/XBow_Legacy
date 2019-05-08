@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_5CCB70A4:
-        m_Texture: {fileID: 2800000, guid: bbcc3c59045447540bc7f6f9a7bd739c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 199fa22eccef3534c9853f3baa1e3d37, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -80,7 +80,7 @@ Material:
     - Vector2_16578860: {r: 1, g: -5, b: 0, a: 0}
     - Vector2_7F0B7240: {r: 0.1, g: 0.3, b: 0, a: 0}
     - Vector2_AFC47631: {r: 0, g: 1, b: 0, a: 0}
-    - Vector2_F7876AA6: {r: 0, g: 2, b: 0, a: 0}
+    - Vector2_F7876AA6: {r: 0.1, g: 2, b: 0, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
