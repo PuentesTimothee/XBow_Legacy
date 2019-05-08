@@ -20,6 +20,6 @@ MonoBehaviour:
   - m_Name: Dissolve
     m_Color: {r: 2.9960785, g: 0.65882355, b: 0.5803922, a: 1}
   - m_Name: Light
-    m_Color: {r: 0.9150943, g: 0.17697577, b: 0.17697577, a: 1}
+    m_Color: {r: 1.827451, g: 0.3529412, b: 0.3529412, a: 1}
   - m_Name: Accent
     m_Color: {r: 1, g: 0.77891564, b: 0.1273585, a: 0}

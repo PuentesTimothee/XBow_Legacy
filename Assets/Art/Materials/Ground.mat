@@ -62,11 +62,11 @@ Material:
     - _GlossMapScale: 0.5
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _Metalic: 0.079
+    - _Metalic: 0
     - _Metallic: 0.85
     - _OcclusionStrength: 1
     - _ReceiveShadows: 1
-    - _Smoothness: 0.619
+    - _Smoothness: 0.6
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -75,13 +75,17 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_4E688EB9: {r: 0, g: 0.2731139, b: 5.2164755, a: 1}
+    - Color_AA01DF33: {r: 0.050980397, g: 0.8297657, b: 0.9764706, a: 1}
+    - Vector2_219AFC43: {r: 0.25, g: 3, b: 0, a: 0}
     - Vector2_58D7E2A1: {r: 0, g: 1, b: 0, a: 0}
     - Vector2_8CACFEDD: {r: 0.25, g: 3, b: 0, a: 0}
+    - Vector2_964D66BE: {r: 3, g: 10, b: 0, a: 0}
     - Vector2_B92F3B2A: {r: 0.5, g: 1, b: 0, a: 0}
     - Vector2_E43DFB2C: {r: 15, g: 100, b: 0, a: 0}
     - Vector2_F9E60AAA: {r: 1, g: 25, b: 0, a: 0}
+    - Vector3_B8E46765: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_E6FFAFB5: {r: 0, g: 0, b: 0, a: 0}
     - _Albedo: {r: 0.082352914, g: 0.23529407, b: 0.38823527, a: 0}
     - _Color: {r: 0.08210219, g: 0.23468299, b: 0.38679248, a: 1}
-    - _EmissionColor: {r: 0.5087674, g: 0, b: 1.1042566, a: 1}
+    - _EmissionColor: {r: 0.6189767, g: 0.030834213, b: 1.3073708, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
