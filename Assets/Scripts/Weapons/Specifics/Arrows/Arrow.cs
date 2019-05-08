@@ -7,24 +7,25 @@ namespace Weapons.Specifics.Arrows
 	public class Arrow : Projectile
 	{
 		[Header("Arrow variables")]
-		[SerializeField] private ParticleSystem _trailPs;
-		[SerializeField] private GameObject _effect;
+		[SerializeField] private GameObject _trail;
+		[SerializeField] private GameObject _releaseEffect;
+		[SerializeField] private GameObject _chargingEffect;
 		
 		[Header("Events")]
 		public UnityEvent OnCollision;
-		
-		protected override void StopStart(bool keepSpeed)
-		{
-			base.StopStart(keepSpeed);
-			var main = _trailPs.main;
-			main.simulationSpeed = 0;
-		}
 
-		protected override void StopEnd(bool keepSpeed)
+		private bool _charging = false;
+
+		public bool Charging
 		{
-			base.StopEnd(keepSpeed);
-			var main = _trailPs.main;
-			main.simulationSpeed = 1;
+			set
+			{
+				if (_charging != value && Status == State.Waiting)
+				{
+					_charging = value;
+					_chargingEffect.SetActive(_charging);
+				}
+			}
 		}
 
 		protected override void StickInTarget(Collision collision, Vector3 actualVelocity)
@@ -36,9 +37,10 @@ namespace Weapons.Specifics.Arrows
 		public override void Fire(Vector3 speedAndDir)
 		{
 			base.Fire(speedAndDir);
-			_trailPs.gameObject.SetActive(true);
-			_effect.SetActive(true);
-			_effect.transform.parent = null;
+			_chargingEffect.SetActive(false);
+			_trail.SetActive(true);
+			_releaseEffect.SetActive(true);
+			_releaseEffect.transform.parent = null;
 		}
 
 		protected override void Fire_SetVelocity(Vector3 speedAndDir)
