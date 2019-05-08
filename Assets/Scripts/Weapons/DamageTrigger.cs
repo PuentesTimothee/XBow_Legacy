@@ -9,7 +9,6 @@ namespace Weapons
 
         private void OnTriggerEnter(Collider other)
         {
-            Debug.Log("Hit " + other.name);
             var hittable = other.GetComponent<Hittable>();
             if (hittable != null)
                 hittable.Hit(Damage, transform.position);
