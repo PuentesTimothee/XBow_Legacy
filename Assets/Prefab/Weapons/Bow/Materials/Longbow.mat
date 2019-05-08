@@ -121,7 +121,7 @@ Material:
     - g_flReflectanceScale: 1
     m_Colors:
     - Color_5D19A627: {r: 0.44233197, g: 0.5494078, b: 3.7509756, a: 1}
-    - Color_7DFAC178: {r: 0.150796, g: 0.077830195, b: 0.31132078, a: 1}
+    - Color_7DFAC178: {r: 0, g: 0, b: 0, a: 1}
     - Color_B488B937: {r: 0.150796, g: 0.077830195, b: 0.31132078, a: 1}
     - Vector2_374EA717: {r: 0.05, g: 0.1, b: 0, a: 0}
     - Vector3_D160F51C: {r: 0, g: 0, b: 0, a: 0}

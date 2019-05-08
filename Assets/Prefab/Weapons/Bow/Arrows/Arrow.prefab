@@ -421,11 +421,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveFiles:
-  - {fileID: 8300000, guid: 5f039d75d0bb78d4889ab24b97202102, type: 3}
-  - {fileID: 8300000, guid: 4ecafa26f7b1907499d66d33608d525f, type: 3}
-  - {fileID: 8300000, guid: 4483e6804a771fa4d8801c6f95d8948d, type: 3}
-  - {fileID: 8300000, guid: d4cb4a211fa841a4b8231a959f490bc6, type: 3}
-  - {fileID: 8300000, guid: d98a67f480bdc3f49bbe470420b05998, type: 3}
+  - {fileID: 8300000, guid: f9f9a95333ab2df47b86eb8b8d1a9fb6, type: 3}
+  - {fileID: 8300000, guid: 5351f31aa21b6c74db255fd070005a0e, type: 3}
+  - {fileID: 8300000, guid: 128ada96a65bb3b44874931cedd0c0f9, type: 3}
+  - {fileID: 8300000, guid: cfbb3118301d4954989fb041910afb70, type: 3}
+  - {fileID: 8300000, guid: 13897fac92720064d94f5fa9f1c83e53, type: 3}
+  - {fileID: 8300000, guid: afef05e241a7f2048a3b89eb5d3412d0, type: 3}
+  - {fileID: 8300000, guid: 531385fa19eec644aab14380a71378b5, type: 3}
+  - {fileID: 8300000, guid: 8c64722366c5e3a469b9d7eaf0f54d0f, type: 3}
+  - {fileID: 8300000, guid: 5d61ae3c2cc0b2041a0a2ef82499e598, type: 3}
+  - {fileID: 8300000, guid: 9d0096abcdac1714b8c352a6cc327ee9, type: 3}
   volMin: 0.1
   volMax: 0.3
   pitchMin: 0.98

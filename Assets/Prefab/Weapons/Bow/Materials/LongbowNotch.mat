@@ -77,7 +77,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_93E91290: 0.5
     - Vector1_97C19705: 4.1
+    - Vector1_BCD53080: 0
     - Vector1_EC2DB626: 100
     - _AlphaClip: 0
     - _Animation: 0
@@ -118,13 +120,14 @@ Material:
     - g_flReflectanceMin: 0
     - g_flReflectanceScale: 1
     m_Colors:
-    - Color_5D19A627: {r: 1.568627, g: 0.3371289, b: 0.2381686, a: 0}
-    - Color_7DFAC178: {r: 2.5193918, g: 0.47485918, b: 0.27700117, a: 0}
-    - Color_B488B937: {r: 0.764151, g: 0.764151, b: 0.764151, a: 0}
+    - Color_5D19A627: {r: 0.44233197, g: 0.5494078, b: 3.7509756, a: 1}
+    - Color_7DFAC178: {r: 0.18466745, g: 1.0222663, b: 1.2596959, a: 1}
+    - Color_B488B937: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_374EA717: {r: 0.05, g: 0.1, b: 0, a: 0}
     - Vector3_D160F51C: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.46323532, g: 0.46323532, b: 0.46323532, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Point: {r: 0, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - g_vWorldAlignedNormalTangentU: {r: -1, g: 0, b: 0, a: 0}
     - g_vWorldAlignedNormalTangentV: {r: 0, g: 0, b: 1, a: 0}
