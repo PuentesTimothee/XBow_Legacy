@@ -189,7 +189,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2533024820887385606}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 1.75
   m_Height: 7
   m_Direction: 1
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PointOnHit: 50
   DamageMultiplier: 2
-  PartType: 0
+  PartType: 2
   MainBody: {fileID: 2533024820887385625}
 --- !u!1 &2533024820887385994
 GameObject:

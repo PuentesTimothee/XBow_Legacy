@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Commons;
+using UnityEditor;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
 
@@ -224,7 +225,7 @@ namespace Weapons
 					Physics.IgnoreCollision( shaftRB.GetComponent<Collider>(), collision.collider );
 				}
                  */
-                
+                EditorApplication.isPaused = true;
                 if (CanStick(rbSpeed.sqrMagnitude))
                     StickInTarget(collision, rbSpeed);
             }

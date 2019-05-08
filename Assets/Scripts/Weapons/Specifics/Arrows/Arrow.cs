@@ -6,9 +6,10 @@ namespace Weapons.Specifics.Arrows
 	//-------------------------------------------------------------------------
 	public class Arrow : Projectile
 	{
-		[Header("Arrow variables")] [SerializeField]
-		private ParticleSystem _trailPs;
-
+		[Header("Arrow variables")]
+		[SerializeField] private ParticleSystem _trailPs;
+		[SerializeField] private GameObject _effect;
+		
 		[Header("Events")]
 		public UnityEvent OnCollision;
 		
@@ -36,6 +37,8 @@ namespace Weapons.Specifics.Arrows
 		{
 			base.Fire(speedAndDir);
 			_trailPs.gameObject.SetActive(true);
+			_effect.SetActive(true);
+			_effect.transform.parent = null;
 		}
 
 		protected override void Fire_SetVelocity(Vector3 speedAndDir)
