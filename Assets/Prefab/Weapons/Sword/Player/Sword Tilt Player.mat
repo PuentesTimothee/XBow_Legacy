@@ -96,9 +96,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_75D741FA: 25
+    - Vector1_75D741FA: 75
     - Vector1_97C19705: 1
-    - Vector1_A46DD89B: 18.5
+    - Vector1_A46DD89B: 2
     - Vector1_EC2DB626: 150
     - _AlphaClip: 0
     - _Animation: 0

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Male_Skin
-  m_Shader: {fileID: 4800000, guid: 3ca7fa34011a33e4bb8b1556210f3fb7, type: 3}
+  m_Shader: {fileID: 4800000, guid: db16ec65d5997e94a82ae5ba8bf7076e, type: 3}
   m_ShaderKeywords: _FADEOUT_ON
   m_LightmapFlags: 6
   m_EnableInstancingVariants: 0
@@ -83,12 +83,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_6753477C_Out:
+        m_Texture: {fileID: 2800000, guid: c1be83a1058bcb149be345a971dd8573, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_EB04DA13_Out:
+        m_Texture: {fileID: 2800000, guid: ba14a3fc091f3794aa04b316c90f979a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_459C6BFE: 0.5
-    - Vector1_75D741FA: 25
+    - Vector1_75D741FA: 100
     - Vector1_93E91290: 0.75
     - Vector1_97C19705: 7
-    - Vector1_A46DD89B: 7.5
+    - Vector1_A46DD89B: 2
     - Vector1_BCD53080: 0.15
     - Vector1_C765542: 0.1
     - Vector1_EC2DB626: 25
@@ -125,7 +133,10 @@ Material:
     - Color_DB243DB2: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_102E5C25: {r: 0.05, g: 0.1, b: 0, a: 0}
     - Vector2_374EA717: {r: 0.05, g: 0.1, b: 0, a: 0}
+    - Vector2_CF507622: {r: 1, g: 2, b: 0, a: 0}
     - Vector3_D160F51C: {r: 0, g: 1, b: 0, a: 0}
+    - Vector4_364353E0: {r: 1, g: -0.25, b: -0.5, a: 1}
+    - Vector4_97DF444C: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _Point: {r: 0, g: 0, b: 0, a: 0}

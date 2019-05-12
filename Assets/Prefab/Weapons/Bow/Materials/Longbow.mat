@@ -90,10 +90,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_459C6BFE: 0.5
-    - Vector1_75D741FA: 25
+    - Vector1_75D741FA: 75
     - Vector1_93E91290: 0.5
     - Vector1_97C19705: 4.1
-    - Vector1_A46DD89B: 7.5
+    - Vector1_A46DD89B: 2
     - Vector1_BCD53080: 0
     - Vector1_C765542: 0
     - Vector1_EC2DB626: 100
@@ -147,7 +147,7 @@ Material:
     - Vector3_D160F51C: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.2627451, g: 0.09019607, b: 0.11058114, a: 1}
     - _EmissionColor: {r: 1, g: 0, b: 0.8938141, a: 1}
-    - _Point: {r: 0, g: 1, b: 0, a: 0}
+    - _Point: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - g_vWorldAlignedNormalTangentU: {r: -1, g: 0, b: 0, a: 0}
     - g_vWorldAlignedNormalTangentV: {r: 0, g: 0, b: 1, a: 0}
