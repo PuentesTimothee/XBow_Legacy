@@ -440,9 +440,10 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.028762981, g: 0.05902014, b: 0.1397059, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -703,9 +704,10 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.028762981, g: 0.05902014, b: 0.1397059, a: 1}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -1821,7 +1823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea52d575aedc94181332d5e4e5acf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreDisplay: {fileID: 0}
   ComboDuration: 2
 --- !u!1 &1000011498581176
 GameObject:
@@ -2286,15 +2287,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 485514}
     m_Modifications:
-    - target: {fileID: 1244990892720265773, guid: bb1f1682f7d8aef4183e81d3ce705538,
-        type: 3}
-      propertyPath: m_Name
-      value: Right SelectionWheel
-      objectReference: {fileID: 0}
     - target: {fileID: 1836137438272799778, guid: bb1f1682f7d8aef4183e81d3ce705538,
         type: 3}
       propertyPath: InputHand
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244990892720265773, guid: bb1f1682f7d8aef4183e81d3ce705538,
+        type: 3}
+      propertyPath: m_Name
+      value: Right SelectionWheel
       objectReference: {fileID: 0}
     - target: {fileID: 1244990892720265778, guid: bb1f1682f7d8aef4183e81d3ce705538,
         type: 3}
@@ -2520,16 +2521,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4675951498613704975}
     m_Modifications:
-    - target: {fileID: 332396943472091260, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
-        type: 3}
-      propertyPath: m_Name
-      value: BowWeapon
-      objectReference: {fileID: 0}
-    - target: {fileID: 332396943472091260, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 332396943472091250, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2583,6 +2574,16 @@ PrefabInstance:
     - target: {fileID: 332396943472091250, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 332396943472091260, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
+        type: 3}
+      propertyPath: m_Name
+      value: BowWeapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 332396943472091260, guid: 9aa2c0eda4416ac459fec6c1ca010a62,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2704,11 +2705,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 447954}
     m_Modifications:
-    - target: {fileID: 6042383515689637111, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4,
-        type: 3}
-      propertyPath: m_Name
-      value: PostProcess
-      objectReference: {fileID: 0}
     - target: {fileID: 5911967904339596989, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2764,6 +2760,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6042383515689637111, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4,
+        type: 3}
+      propertyPath: m_Name
+      value: PostProcess
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 409bd325ccdf1d344a55f0cc2e2ffbe4, type: 3}
 --- !u!4 &1716112486599500911 stripped
@@ -2779,15 +2780,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 476540}
     m_Modifications:
-    - target: {fileID: 1244990892720265773, guid: bb1f1682f7d8aef4183e81d3ce705538,
-        type: 3}
-      propertyPath: m_Name
-      value: Left SelectionWheel
-      objectReference: {fileID: 0}
     - target: {fileID: 1836137438272799778, guid: bb1f1682f7d8aef4183e81d3ce705538,
         type: 3}
       propertyPath: InputHand
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244990892720265773, guid: bb1f1682f7d8aef4183e81d3ce705538,
+        type: 3}
+      propertyPath: m_Name
+      value: Left SelectionWheel
       objectReference: {fileID: 0}
     - target: {fileID: 1244990892720265778, guid: bb1f1682f7d8aef4183e81d3ce705538,
         type: 3}

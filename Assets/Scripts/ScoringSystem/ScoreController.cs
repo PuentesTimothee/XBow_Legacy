@@ -2,6 +2,7 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Valve.VR.InteractionSystem;
 
 
 namespace ScoringSystem
@@ -11,8 +12,13 @@ namespace ScoringSystem
         #region Variables
         public static ScoreController Instance;
         public static Text ScoreDisplay;
-        
+        public static Text ComboDisplay;
+        public static SoundPlayOneshot ComboSound;
+
+
         public float ComboDuration = 2.0f;
+
+
 
         private int _score;
         private int _levelIndex = -1;
@@ -79,6 +85,8 @@ namespace ScoringSystem
                 {
                     _comboCount = 0;
                     _isComboing = false;
+                    if(ComboDisplay)
+                      ComboDisplay.text = "x0";
                 }
                 else
                     _comboTimer -= Time.deltaTime;
@@ -90,6 +98,8 @@ namespace ScoringSystem
         {
             Instance._StartForLevel(levelIndex);
             ScoreDisplay = GameObject.Find("ScoreText").GetComponent<Text>();
+            ComboDisplay = GameObject.Find("ComboText").GetComponent<Text>();
+            ComboSound = GameObject.Find("ComboSounds").GetComponent<SoundPlayOneshot>();
         }
 
         private void _StartForLevel(int levelIndex)
@@ -162,8 +172,12 @@ namespace ScoringSystem
             adding += _comboCount * 100;
             _comboCount++;
             _score += adding;
+            if (ComboSound)
+              ComboSound.Play();
             if(ScoreDisplay)
               ScoreDisplay.text = _score.ToString();
+            if(ComboDisplay)
+              ComboDisplay.text = "x" + _comboCount.ToString();
         }
 
         #endregion
