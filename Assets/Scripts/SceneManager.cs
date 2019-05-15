@@ -68,4 +68,9 @@ public class SceneManager : MonoBehaviour
         ExitScene();
         Application.Quit();
     }
+
+    public void Reload()
+    {
+        LoadScene(gameObject.scene.name);
+    }
 }

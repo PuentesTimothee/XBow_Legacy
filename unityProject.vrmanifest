@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.xbowlegacy.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "G:\\Unity Projects\\XBow_Legacy\\actions.json",
+      "action_manifest_path": "D:\\Repos\\XBow_Legacy\\actions.json",
       "strings": {
         "en_us": {
           "name": "XBow Legacy [Testing]"

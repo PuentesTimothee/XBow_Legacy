@@ -1,54 +1,67 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using Valve.VR;
 
-public class PauseMenu : MonoBehaviour
+namespace Menu
 {
-
-    public GameObject pauseMenu;
-
-    private bool gamePaused;
-
-    // Start is called before the first frame update
-    void Start()
+    [RequireComponent(typeof(Animator))]
+    public class PauseMenu : MonoBehaviour
     {
-        gamePaused = false;
-    }
+        public SteamVR_Action_Boolean PauseAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Pause");
 
-    // Update is called once per frame
-    void Update()
-    {
+        private Animator _animator;
+        private bool _gamePaused;
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            _gamePaused = false;
+        }
+
+        private void Update()
+        {
+            if (PauseAction.stateDown)
+            {
+                if (_gamePaused)
+                    UnPauseGame();
+                else
+                    PauseGame();
+            }
+        }
         
-    }
+        private void PauseGame()
+        {
+            _gamePaused = true;
+            gameObject.SetActive(true);
+            Time.timeScale = 0.0f;
+        }
 
-    private void PauseGame()
-    {
-        gamePaused = true;
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0.0f;
-    }
+        private void UnPauseGame()
+        {
+            _gamePaused = false;
+            gameObject.SetActive(false);
+            Time.timeScale = 1.0f;
+        }
 
-    private void UnpauseGame()
-    {
-        gamePaused = false;
-        pauseMenu.SetActive(false);
-        Time.timeScale = 1.0f;
-    }
+        //Buttons 
 
-    //Buttons 
+        public void Resume()
+        {
+            UnPauseGame();
+        }
 
-    public void Resume()
-    {
-        UnpauseGame();
-    }
-
-    public void MainMenu()
-    {
-
-    }
-
-    public void QuitGame()
-    {
+        public void Restart()
+        {
+            SceneManager.ActualScene.Reload();
+        }
         
+        public void MainMenu()
+        {
+            SceneManager.ActualScene.LoadScene("MainMenu");
+        }
+
+        public void QuitGame()
+        {
+            SceneManager.ActualScene.QuitScene();
+        }
     }
 }
