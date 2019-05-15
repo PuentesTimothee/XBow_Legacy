@@ -23,3 +23,5 @@ MonoBehaviour:
     m_Color: {r: 0.3106246, g: 1.7212391, b: 2.1242716, a: 1}
   - m_Name: Accent
     m_Color: {r: 0.93372107, g: 1, b: 0, a: 0}
+  - m_Name: Metal Base color
+    m_Color: {r: 0.6768423, g: 0.71676975, b: 0.8490566, a: 1}

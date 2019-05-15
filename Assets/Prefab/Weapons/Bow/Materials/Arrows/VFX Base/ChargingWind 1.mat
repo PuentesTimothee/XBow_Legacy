@@ -64,6 +64,7 @@ Material:
     - Vector1_8635F953: 0
     - Vector1_CCC008B0: 0.25
     - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.2
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
