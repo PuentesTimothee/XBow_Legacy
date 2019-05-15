@@ -431,8 +431,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8c64722366c5e3a469b9d7eaf0f54d0f, type: 3}
   - {fileID: 8300000, guid: 5d61ae3c2cc0b2041a0a2ef82499e598, type: 3}
   - {fileID: 8300000, guid: 9d0096abcdac1714b8c352a6cc327ee9, type: 3}
-  volMin: 0.1
-  volMax: 0.3
+  volMin: 1
+  volMax: 1
   pitchMin: 0.98
   pitchMax: 1
   playOnAwake: 0
@@ -5779,7 +5779,7 @@ ParticleSystem:
 --- !u!199 &1023905639
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10785,7 +10785,7 @@ ParticleSystem:
 --- !u!199 &7291790350742151422
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

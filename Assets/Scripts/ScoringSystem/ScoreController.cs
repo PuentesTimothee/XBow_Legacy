@@ -11,7 +11,8 @@ namespace ScoringSystem
         #region Variables
         public static ScoreController Instance;
         public static Text ScoreDisplay;
-        
+        public static Text ComboDisplay;
+
         public float ComboDuration = 2.0f;
 
         private int _score;
@@ -79,6 +80,8 @@ namespace ScoringSystem
                 {
                     _comboCount = 0;
                     _isComboing = false;
+                    if(ComboDisplay)
+                      ComboDisplay.text = "x0";
                 }
                 else
                     _comboTimer -= Time.deltaTime;
@@ -90,6 +93,7 @@ namespace ScoringSystem
         {
             Instance._StartForLevel(levelIndex);
             ScoreDisplay = GameObject.Find("ScoreText").GetComponent<Text>();
+            ComboDisplay = GameObject.Find("ComboText").GetComponent<Text>();
         }
 
         private void _StartForLevel(int levelIndex)
@@ -164,6 +168,8 @@ namespace ScoringSystem
             _score += adding;
             if(ScoreDisplay)
               ScoreDisplay.text = _score.ToString();
+            if(ComboDisplay)
+              ComboDisplay.text = "x" + _comboCount.ToString();
         }
 
         #endregion
