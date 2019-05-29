@@ -1200,6 +1200,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3709988010855528727, guid: 0a941f1bc0ec0b3478e50b12a757d065,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 279790015}
+    - target: {fileID: 3709988010855528727, guid: 0a941f1bc0ec0b3478e50b12a757d065,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579402618657463119, guid: 0a941f1bc0ec0b3478e50b12a757d065,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 279790015}
+    - target: {fileID: 4579402618657463119, guid: 0a941f1bc0ec0b3478e50b12a757d065,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a941f1bc0ec0b3478e50b12a757d065, type: 3}
 --- !u!1001 &352841637

@@ -46,7 +46,7 @@ public class SceneManager : MonoBehaviour
         _steamVrPlayer.transform.rotation = StartPlayerPosition.rotation;
     }
 
-    public void ExitScene()
+    private void ExitScene()
     {
         if (_steamVrPlayer)
             _steamVrPlayer.WeaponsSlot.enabled = false;
