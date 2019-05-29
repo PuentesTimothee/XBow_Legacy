@@ -108,8 +108,8 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
+    agentSlope: 60
+    agentClimb: 0.6
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: b7d7e3a8e4c7c2741b090dd0c9451618, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 9c918b6e816de1940b30167084dc4ad3, type: 2}
 --- !u!114 &726150449 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 726150449, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
@@ -229,6 +229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112236061173832746, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.97
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14300e51f965cc4419e2c4b2c6d2afa5, type: 3}
