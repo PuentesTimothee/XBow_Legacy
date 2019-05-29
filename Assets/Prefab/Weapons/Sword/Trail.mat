@@ -8,21 +8,31 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Trail
-  m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
-  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION
-  m_LightmapFlags: 0
+  m_Shader: {fileID: 4800000, guid: 9fee4009152b93749b5ef6f95ca1310a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - ALWAYS
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_6FA6640B:
-        m_Texture: {fileID: 2800000, guid: ba14a3fc091f3794aa04b316c90f979a, type: 3}
+    - Texture2D_3124D84B:
+        m_Texture: {fileID: 2800000, guid: b51a679d575939e43a21cac637a5028d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_517F39A1:
+        m_Texture: {fileID: 2800000, guid: 199fa22eccef3534c9853f3baa1e3d37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5CCB70A4:
+        m_Texture: {fileID: 2800000, guid: 199fa22eccef3534c9853f3baa1e3d37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_FD70F40E:
+        m_Texture: {fileID: 2800000, guid: 199fa22eccef3534c9853f3baa1e3d37, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -49,51 +59,44 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture1:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_1D9F746D: 2
+    - Vector1_4C2496CD: 1
+    - Vector1_4E58EAB9: 100
+    - Vector1_53A3A19F: 0
+    - Vector1_7CF5F332: 0.15
+    - Vector1_8635F953: 0
+    - Vector1_CCC008B0: 0.25
     - _AlphaClip: 0
+    - _AlphaClipThreshold: 0
     - _Blend: 0
-    - _BlendOp: 0
     - _BumpScale: 1
-    - _CameraFadingEnabled: 0
-    - _CameraFarFadeDistance: 2
-    - _CameraNearFadeDistance: 1
-    - _ColorMode: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DistortionBlend: 0.5
-    - _DistortionEnabled: 0
-    - _DistortionStrength: 1
-    - _DistortionStrengthScaled: 0
-    - _DstBlend: 10
-    - _EmissionEnabled: 1
-    - _FlipbookMode: 0
+    - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LightingEnabled: 0
     - _Metallic: 0
-    - _Mode: 2
     - _OcclusionStrength: 1
     - _ReceiveShadows: 1
     - _SmoothnessTextureChannel: 0
-    - _SoftParticlesEnabled: 0
-    - _SoftParticlesFarFadeDistance: 1
-    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _Surface: 0
     - _WorkflowMode: 1
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
-    - Vector2_A8FC5A11: {r: 5, g: 1, b: 0, a: 0}
-    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 1.7552834, g: 0.35460272, b: 0.14184108, a: 1}
-    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - Color_11B291F0: {r: 0.150796, g: 0.077830195, b: 0.31132078, a: 0}
+    - Color_5757416A: {r: 0, g: 2.6249158, b: 3.3635857, a: 0.7411765}
+    - Color_CB9B109A: {r: 0.93372107, g: 1, b: 0, a: 0}
+    - Color_FBDC7874: {r: 0.26381066, g: 2.0181515, b: 2.5193918, a: 1}
+    - Vector2_16578860: {r: 2.5, g: 5, b: 0, a: 0}
+    - Vector2_21480840: {r: -1, g: 0, b: 0, a: 0}
+    - Vector2_78151D24: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_7F0B7240: {r: 0.1, g: 0.3, b: 0, a: 0}
+    - Vector2_AFC47631: {r: 0, g: 0.01, b: 0, a: 0}
+    - Vector2_F7876AA6: {r: 3, g: 2.5, b: 0, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TintColor: {r: 0, g: 0, b: 0, a: 1}

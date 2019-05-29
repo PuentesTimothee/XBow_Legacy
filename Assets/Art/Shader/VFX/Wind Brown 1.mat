@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Wind Brown 1
-  m_Shader: {fileID: 4800000, guid: e0c6768add3dd664ebcb41ca2510a34b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9fee4009152b93749b5ef6f95ca1310a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_3124D84B:
+        m_Texture: {fileID: 2800000, guid: 1878876f1117e2c498a51968eca48f00, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_517F39A1:
         m_Texture: {fileID: 2800000, guid: 199fa22eccef3534c9853f3baa1e3d37, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -56,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1D9F746D: 15
+    - Vector1_1D9F746D: 3
     - Vector1_4C2496CD: 1.5
     - Vector1_4E58EAB9: 5
     - Vector1_53A3A19F: 0
@@ -64,6 +68,7 @@ Material:
     - Vector1_8635F953: 0.5
     - Vector1_CCC008B0: 0.1
     - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.25
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
@@ -84,9 +89,9 @@ Material:
     m_Colors:
     - Color_11B291F0: {r: 0.18867922, g: 0.07299828, b: 0.04360982, a: 0}
     - Color_5757416A: {r: 0.5566038, g: 0.3630704, b: 0.24417052, a: 1}
-    - Color_CB9B109A: {r: 0.3490566, g: 0.16154635, b: 0.11690104, a: 1}
-    - Color_FBDC7874: {r: 0.13207549, g: 0.08966811, b: 0.08784266, a: 0}
-    - Vector2_21480840: {r: 2, g: 1, b: 0, a: 0}
+    - Color_CB9B109A: {r: 0.1509434, g: 0.12032007, b: 0.11320755, a: 1}
+    - Color_FBDC7874: {r: 0.13207549, g: 0.08966811, b: 0.08784266, a: 0.24313726}
+    - Vector2_21480840: {r: 2, g: -1, b: 0, a: 0}
     - Vector2_78151D24: {r: 2, g: 1, b: 0, a: 0}
     - Vector2_7F0B7240: {r: 0.1, g: 0.5, b: 0, a: 0}
     - Vector2_AFC47631: {r: 0, g: 0.01, b: 0, a: 0}
