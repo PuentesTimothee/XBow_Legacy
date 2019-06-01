@@ -485,6 +485,7 @@ MonoBehaviour:
   FrontAngle: 90
   _deathSound: {fileID: 3017438447784068815}
   _hurtSound: {fileID: 6224245782173206972}
+  orbs: {fileID: 866794357448252006, guid: f0fc524d0148e3542b091c856d7c9780, type: 3}
 --- !u!114 &2533024820887385601
 MonoBehaviour:
   m_ObjectHideFlags: 0
