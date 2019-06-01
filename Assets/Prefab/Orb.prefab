@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   timer: 30
+  chance: 15
 --- !u!135 &6973212518462767644
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -118,7 +119,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: ec9051fdb76f7d24cbb124adca1afb76, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
