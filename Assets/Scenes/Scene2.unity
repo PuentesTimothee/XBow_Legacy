@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1774695, g: 0.027517293, b: 0.12810978, a: 1}
+  m_IndirectSpecularColor: {r: 0.023344029, g: 0.0100117335, b: 0.01155429, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -72,7 +72,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 1
-    m_BakeBackend: 1
+    m_BakeBackend: 2
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
@@ -96,7 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
-  m_LightingDataAsset: {fileID: 112000000, guid: 3c8083386ed55a24582cbe035b988530,
+  m_LightingDataAsset: {fileID: 112000000, guid: 42ac91208d9b6b24e86e79197af9753d,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -108,8 +108,8 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 60
-    agentClimb: 0.6
+    agentSlope: 45
+    agentClimb: 1
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -173,7 +173,7 @@ PrefabInstance:
     - target: {fileID: 3873371973151963905, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
         type: 3}
       propertyPath: m_Name
-      value: Room3
+      value: Room 2
       objectReference: {fileID: 0}
     - target: {fileID: 2792219533530115290, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
         type: 3}
@@ -234,6 +234,61 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729389683272145115, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729389683272145115, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729389683272145115, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729389683272145115, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5729389683272145115, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007483413705531622, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007483413705531622, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007483413705531622, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007483413705531622, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007483413705531622, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1680399591909741873, guid: 14300e51f965cc4419e2c4b2c6d2afa5,
+        type: 3}
+      propertyPath: m_Name
+      value: Pillar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14300e51f965cc4419e2c4b2c6d2afa5, type: 3}
