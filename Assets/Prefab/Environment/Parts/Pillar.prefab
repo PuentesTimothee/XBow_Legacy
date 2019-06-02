@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4917234613142796104}
   - component: {fileID: 5551032345642573558}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 7923592638886243178}
   - component: {fileID: 3247071662033738000}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 6869459599548835970}
   - component: {fileID: 5874284864330420070}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 8508681709814197288}
   - component: {fileID: 6294915992870926698}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 2169535379463659524}
   - component: {fileID: 2608144314150733902}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 5202228765714408478}
   - component: {fileID: 5194968585416455570}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Bot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 904201051820825594}
   - component: {fileID: 3054022317154295688}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 8266195915839318693}
   - component: {fileID: 1261537511615824824}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -628,7 +628,7 @@ GameObject:
   - component: {fileID: 9082479022996955055}
   - component: {fileID: 6947850040905091089}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Bot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 5861676578004617400}
   - component: {fileID: 7122661176900611019}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 652823643680539123}
   - component: {fileID: 2582114062599202547}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Bot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +915,7 @@ GameObject:
   - component: {fileID: 9023616792076400603}
   - component: {fileID: 9011817966962009687}
   m_Layer: 0
-  m_Name: panel 1x1 Plain
+  m_Name: panel 1x1 Plain Bot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

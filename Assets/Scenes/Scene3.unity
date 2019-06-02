@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.14446199, g: 0.11877005, b: 0.16037738, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.0175
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.11592201, g: 0.06474724, b: 0.14150941, a: 1}
@@ -960,11 +960,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room 3
       objectReference: {fileID: 0}
-    - target: {fileID: 8797279288463975177, guid: 72a96f57aa9fb884fb707792d0d6d150,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8797279288463975182, guid: 72a96f57aa9fb884fb707792d0d6d150,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1020,15 +1015,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8797279289869069009, guid: 72a96f57aa9fb884fb707792d0d6d150,
+    - target: {fileID: 8797279288541961232, guid: 72a96f57aa9fb884fb707792d0d6d150,
         type: 3}
-      propertyPath: m_Name
-      value: SpotLight
-      objectReference: {fileID: 0}
-    - target: {fileID: 8797279289105635906, guid: 72a96f57aa9fb884fb707792d0d6d150,
-        type: 3}
-      propertyPath: m_Name
-      value: SpotLight
+      propertyPath: m_LocalPosition.y
+      value: 4.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72a96f57aa9fb884fb707792d0d6d150, type: 3}
