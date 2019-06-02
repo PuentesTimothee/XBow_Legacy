@@ -8,6 +8,8 @@ public class Orb : MonoBehaviour
     public float timer = 20;
     public float chance = 50;
 
+    public GameObject prefabVFX;
+
     private float timerCount;
 
     private void Awake()
@@ -27,11 +29,12 @@ public class Orb : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Damage")
+        if (prefabVFX != null)
         {
-            Debug.Log("projectile trigger");
-            Destroy(this.gameObject);
+            GameObject endVFX = Instantiate(prefabVFX, this.transform.position, this.transform.rotation);
+            Destroy(endVFX, 2);
         }
-
+        Debug.Log("Damage trigger");
+        Destroy(this.gameObject);
     }
 }
