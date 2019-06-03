@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 185602337}
   - component: {fileID: 185602336}
   - component: {fileID: 185602335}
-  - component: {fileID: 185602334}
   - component: {fileID: 185602338}
   m_Layer: 5
   m_Name: Canvas
@@ -83,24 +82,7 @@ MonoBehaviour:
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!114 &185602334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185602333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
+  m_DynamicPixelsPerUnit: 10
 --- !u!114 &185602338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,6 +110,7 @@ GameObject:
   - component: {fileID: 726150448}
   - component: {fileID: 726150450}
   - component: {fileID: 726150449}
+  - component: {fileID: 2339098790123393727}
   m_Layer: 5
   m_Name: ComPanel
   m_TagString: Untagged
@@ -196,6 +179,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Wave 0
+--- !u!114 &2339098790123393727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726150447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.6462264, g: 0.6928261, b: 1, a: 0.5}
+  m_EffectDistance: {x: 0.5, y: -0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1292776086
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +549,7 @@ GameObject:
   - component: {fileID: 2041279141}
   - component: {fileID: 2041279143}
   - component: {fileID: 2041279142}
+  - component: {fileID: 2414641603158759462}
   m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
@@ -619,6 +618,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0
+--- !u!114 &2414641603158759462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041279140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.6462264, g: 0.6928261, b: 1, a: 0.5}
+  m_EffectDistance: {x: 0.5, y: -0.5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &4407855037787338699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,7 +2219,7 @@ PrefabInstance:
         type: 3}
       propertyPath: panelText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 726150449}
     - target: {fileID: 7372055780601319511, guid: 7526ca2b3ae312847b3f4ff28d8442e0,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -9,17 +9,26 @@ public class HealthBar : MonoBehaviour
 
     private float _health;
     private bool _dead = true;
-
+    public ParticleSystem DeathParticle;
+    
     private void Update()
     {
         if (_health <= 0 && !_dead)
         {
             _dead = true;
-            SceneManager.ActualScene.LoadScene("MenuDeath");
-            Debug.Log("You're DEAD !! GAME OVER !!!");
+            StartCoroutine(Death());
         }
     }
 
+    private IEnumerator Death()
+    {
+        Time.timeScale = 0.0f;
+        DeathParticle.Play();
+        yield return new WaitForSeconds(1);
+        Time.timeScale = 1.0f;
+        SceneManager.ActualScene.LoadScene("MenuDeath");
+    }
+    
     public void SetupForGame()
     {
         _health = MaxHealth;
