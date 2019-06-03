@@ -82,7 +82,10 @@
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollider.cs" t="Include" />
           <e p="Playlist.cs" t="Include" />
-          <e p="SceneManager.cs" t="Include" />
+          <e p="SceneManagers" t="Include">
+            <e p="GameSceneManager.cs" t="Include" />
+            <e p="SceneManager.cs" t="Include" />
+          </e>
           <e p="ScoringSystem" t="Include">
             <e p="Menu" t="Include">
               <e p="HighscoreEntry.cs" t="Include" />
@@ -96,6 +99,7 @@
             <e p="HealthBarUI.cs" t="Include" />
             <e p="PopUpText.cs" t="Include" />
             <e p="PopUpTextController.cs" t="Include" />
+            <e p="WaveDisplay.cs" t="Include" />
           </e>
           <e p="VisualEffect" t="Include">
             <e p="AppearScript.cs" t="Include" />

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using SceneManagers;
+using UnityEngine;
 using Valve.VR;
 
 namespace Menu
@@ -7,7 +8,7 @@ namespace Menu
     public class PauseMenu : MonoBehaviour
     {
         public SteamVR_Action_Boolean PauseAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Pause");
-
+        public GameObject Pivot;
         private Animator _animator;
         private bool _gamePaused;
 
@@ -31,14 +32,14 @@ namespace Menu
         private void PauseGame()
         {
             _gamePaused = true;
-            gameObject.SetActive(true);
+            Pivot.SetActive(true);
             Time.timeScale = 0.0f;
         }
 
         private void UnPauseGame()
         {
             _gamePaused = false;
-            gameObject.SetActive(false);
+            Pivot.SetActive(false);
             Time.timeScale = 1.0f;
         }
 

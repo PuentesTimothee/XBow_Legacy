@@ -22,6 +22,7 @@ public class EnemyMove : MonoBehaviour {
 	public float FrontAngle = 90f;
 
 	public SoundPlayOneshot _deathSound;
+	public ParticleSystem _deathParticles;
 	public SoundPlayOneshot _hurtSound;
 	private AppearScript _appear;
 
@@ -137,6 +138,7 @@ public class EnemyMove : MonoBehaviour {
 			float angle = Vector3.Angle(transform.forward, direction);
 			direction = Quaternion.AngleAxis(angle, Vector3.up) * direction;
 			_deathSound.Play();
+			_deathParticles.Play();
 			_animator.SetFloat("xDeath", direction.x);
 			_animator.SetFloat("zDeath", direction.z);
 			_animator.SetTrigger("Death");
