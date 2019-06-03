@@ -8,6 +8,6 @@ https://docs.google.com/document/d/1DMGgPccUDT0mGkeMyY7LiCLiPEEXEqnh7EUxSmhkJY4/
 
 * Puentes Timothée  - Shaders / VFX / Level Design / Weapons System / Menus & Scoreboard
 * Eloi Brehin       - Weapons System / Ennemy Animation&Rigging
-* Anthony Noigeira  - Music / Main Menu
-* Marie Schnidler   - Level Design / Scoring System 
+* Anthony Nogueira  - Music / Main Menu
+* Marie Schindler   - Level Design / Scoring System / HealthBar
 * Victor Kern       - IA & Ennemy Behaviour
