@@ -26,6 +26,8 @@ public class EnemyMove : MonoBehaviour {
 	public SoundPlayOneshot _hurtSound;
 	private AppearScript _appear;
 
+    public GameObject orbs;
+
 	void Awake()
 	{
 		// Set up the references.
@@ -167,7 +169,15 @@ public class EnemyMove : MonoBehaviour {
 			col.enabled = false;
 		_appear.SetPoint(position);
 		yield return _appear.Disapear();
-//		yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0)[0].clip.length * _animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-		Destroy(this.gameObject);
+        //		yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0)[0].clip.length * _animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+
+        int randomOrb = Random.Range(0, 100);
+        if (randomOrb  < orbs.GetComponent<Orb>().chance)
+        {
+            Vector3 orbPos = this.transform.position;
+            orbPos.y += 1;
+            Instantiate(orbs, orbPos, this.transform.rotation);
+        }
+        Destroy(this.gameObject);
 	}
 }
