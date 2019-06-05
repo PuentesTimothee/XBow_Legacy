@@ -31,6 +31,8 @@ namespace Enemy
         public float timeBetweenWaves;      // Time between each waves
         public Transform[] spawnPoints;
 
+        public bool ifinityMode = false;
+
         public Text panelText; // Change of Wave
 
         private WaveState state = WaveState.COUNTING;
@@ -69,9 +71,15 @@ namespace Enemy
                     if (currentWave < waves.Length)
                         StartCoroutine(SpawnWave(waves[currentWave]));
                     else {
-                        panelText.text = "Infinity Mode !";
-                        GetComponent<EnemyManager>().enabled = true;
-                        GetComponent<WaveManager>().enabled = false;
+                        if (ifinityMode)
+                        {
+                            panelText.text = "Infinity Mode !";
+                            GetComponent<EnemyManager>().enabled = true;
+                            GetComponent<WaveManager>().enabled = false;
+                        } else
+                        {
+                            //Do the win menu
+                        }
                     }
                 }
             }

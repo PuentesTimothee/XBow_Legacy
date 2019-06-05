@@ -8,14 +8,18 @@ namespace Menu
     public class PauseMenu : MonoBehaviour
     {
         public SteamVR_Action_Boolean PauseAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Pause");
-        public GameObject Pivot;
+        public GameObject PivotPause;
+        public GameObject PivotGameOver;
+        public GameObject PivotWin;
         private Animator _animator;
         private bool _gamePaused;
+        private bool _gameEnd;
 
         // Start is called before the first frame update
         void Start()
         {
             _gamePaused = false;
+            _gameEnd = false;
         }
 
         private void Update()
@@ -23,24 +27,44 @@ namespace Menu
             if (PauseAction.stateDown)
             {
                 if (_gamePaused)
-                    UnPauseGame();
+                {
+                    if (!_gameEnd)
+                        UnPauseGame();
+                }
                 else
-                    PauseGame();
+                {
+                    if (!_gameEnd)
+                        PauseGame();
+                }             
             }
         }
         
         private void PauseGame()
         {
             _gamePaused = true;
-            Pivot.SetActive(true);
+            PivotPause.SetActive(true);
             Time.timeScale = 0.0f;
         }
 
         private void UnPauseGame()
         {
             _gamePaused = false;
-            Pivot.SetActive(false);
+            PivotPause.SetActive(false);
             Time.timeScale = 1.0f;
+        }
+
+        public void GameOver()
+        {
+            _gameEnd = true;
+            Time.timeScale = 0.0f;
+            PivotGameOver.SetActive(true);
+        }
+
+        public void Win()
+        {
+            _gameEnd = true;
+            PivotWin.SetActive(true);
+            Time.timeScale = 0.0f;
         }
 
         //Buttons 
@@ -63,6 +87,18 @@ namespace Menu
         public void QuitGame()
         {
             SceneManager.ActualScene.QuitScene();
+        }
+
+        public void MainMenuDeath()
+        {
+            SceneManager.ActualScene.LoadScene("MainMenuDeath");
+        }
+
+        public void NextLevel()
+        {
+            int level = SceneManager.ActualScene.LevelIndex + 1;
+            string nextLevel = level.ToString();
+            SceneManager.ActualScene.LoadScene(nextLevel);
         }
     }
 }
