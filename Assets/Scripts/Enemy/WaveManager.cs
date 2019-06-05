@@ -42,10 +42,13 @@ namespace Enemy
         private float searchCountdown = 1f;
 
         public event Action<int> OnNewWave;
+
+        private Menu.PauseMenu _winMenu;
         
         void Start()
         {
             waveCountDown = timeBetweenWaves;
+            _winMenu = GameObject.Find("Canvas").GetComponent<Menu.PauseMenu>();
 
         }
 
@@ -79,6 +82,7 @@ namespace Enemy
                         } else
                         {
                             //Do the win menu
+                            _winMenu.Win();
                         }
                     }
                 }

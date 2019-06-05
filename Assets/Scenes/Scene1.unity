@@ -1973,6 +1973,23 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.98723173
       objectReference: {fileID: 0}
+    - target: {fileID: 822165164904780037, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: ifinityMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 185602338, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+      propertyPath: PivotPause
+      value: 
+      objectReference: {fileID: 2075668622}
+    - target: {fileID: 185602338, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+      propertyPath: PivotGameOver
+      value: 
+      objectReference: {fileID: 1993719527}
+    - target: {fileID: 185602338, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+      propertyPath: PivotWin
+      value: 
+      objectReference: {fileID: 451055715}
     - target: {fileID: 4407855037787338699, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
         type: 3}
       propertyPath: m_IsActive
@@ -2060,6 +2077,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+--- !u!1 &2075668622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1292776086, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+    type: 3}
+  m_PrefabInstance: {fileID: 2064588174}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4186875434537160432
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,10 +7,16 @@ public class HealthBar : MonoBehaviour
 {
     public float MaxHealth;
 
+    private Menu.PauseMenu _deathMenu;
     private float _health;
     private bool _dead = true;
     public ParticleSystem DeathParticle;
-    
+
+    private void Awake()
+    {
+        _deathMenu = GameObject.Find("Canvas").GetComponent<Menu.PauseMenu>();
+    }
+
     private void Update()
     {
         if (_health <= 0 && !_dead)
@@ -26,7 +32,7 @@ public class HealthBar : MonoBehaviour
         DeathParticle.Play();
         yield return new WaitForSeconds(1);
         Time.timeScale = 1.0f;
-        SceneManager.ActualScene.LoadScene("MenuDeath");
+        _deathMenu.GameOver();
     }
     
     public void SetupForGame()

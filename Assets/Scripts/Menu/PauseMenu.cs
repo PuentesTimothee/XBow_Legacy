@@ -26,16 +26,14 @@ namespace Menu
         {
             if (PauseAction.stateDown)
             {
-                if (_gamePaused)
+                if (!_gameEnd)
                 {
-                    if (!_gameEnd)
+                    if (_gamePaused)
                         UnPauseGame();
-                }
-                else
-                {
-                    if (!_gameEnd)
+                    else
                         PauseGame();
-                }             
+                }
+                             
             }
         }
         
@@ -81,7 +79,7 @@ namespace Menu
         
         public void MainMenu()
         {
-            SceneManager.ActualScene.LoadScene("MainMenu");
+            SceneManager.ActualScene.LoadScene("Menu");
         }
 
         public void QuitGame()
@@ -91,13 +89,13 @@ namespace Menu
 
         public void MainMenuDeath()
         {
-            SceneManager.ActualScene.LoadScene("MainMenuDeath");
+            SceneManager.ActualScene.LoadScene("MenuDeath");
         }
 
         public void NextLevel()
         {
             int level = SceneManager.ActualScene.LevelIndex + 1;
-            string nextLevel = level.ToString();
+            string nextLevel = "Scene" + level.ToString();
             SceneManager.ActualScene.LoadScene(nextLevel);
         }
     }
