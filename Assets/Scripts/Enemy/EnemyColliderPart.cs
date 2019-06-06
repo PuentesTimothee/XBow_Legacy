@@ -13,9 +13,9 @@ public enum ColliderPart
 public class EnemyColliderPart : Hittable
 {
 	public int PointOnHit;
-	
+
 	public float DamageMultiplier = 1;
-	
+
 	public ColliderPart PartType;
 	public EnemyMove MainBody;
 

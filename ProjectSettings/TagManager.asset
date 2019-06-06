@@ -9,6 +9,7 @@ TagManager:
   - enemy
   - Music
   - Sword
+  - EnnemyArrow
   layers:
   - Default
   - TransparentFX
