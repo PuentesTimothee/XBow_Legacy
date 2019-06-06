@@ -55,14 +55,14 @@ namespace ScoringSystem
             public void SortDescending()
             {
                 var tmp = entries.ToList();
-                tmp.Sort(delegate(int x, int y) { return (x - y); });
+                tmp.Sort(delegate (int x, int y) { return (x - y); });
                 entries = tmp.ToArray();
             }
 
             public void SortAscending()
             {
                 var tmp = entries.ToList();
-                tmp.Sort(delegate(int x, int y) { return (y - x); });
+                tmp.Sort(delegate (int x, int y) { return (y - x); });
                 entries = tmp.ToArray();
             }
         }
@@ -85,8 +85,8 @@ namespace ScoringSystem
                 {
                     _comboCount = 0;
                     _isComboing = false;
-                    if(ComboDisplay)
-                      ComboDisplay.text = "x0";
+                    if (ComboDisplay)
+                        ComboDisplay.text = "x0";
                 }
                 else
                     _comboTimer -= Time.deltaTime;
@@ -173,11 +173,16 @@ namespace ScoringSystem
             _comboCount++;
             _score += adding;
             if (ComboSound)
-              ComboSound.Play();
-            if(ScoreDisplay)
-              ScoreDisplay.text = _score.ToString();
-            if(ComboDisplay)
-              ComboDisplay.text = "x" + _comboCount.ToString();
+                ComboSound.Play();
+            if (ScoreDisplay)
+                ScoreDisplay.text = _score.ToString();
+            if (ComboDisplay)
+                ComboDisplay.text = "x" + _comboCount.ToString();
+        }
+
+        public int GetScore()
+        {
+            return _score;
         }
 
         #endregion

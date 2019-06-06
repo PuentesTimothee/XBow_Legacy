@@ -1,6 +1,7 @@
 ﻿using SceneManagers;
 using UnityEngine;
 using Valve.VR;
+using UnityEngine.UI;
 
 namespace Menu
 {
@@ -11,15 +12,20 @@ namespace Menu
         public GameObject PivotPause;
         public GameObject PivotGameOver;
         public GameObject PivotWin;
+        public Text ScoreDisplayDeath;
+        public Text ScoreDisplayWin;
+
         private Animator _animator;
         private bool _gamePaused;
         private bool _gameEnd;
+        private bool _textSet;
 
         // Start is called before the first frame update
         void Start()
         {
             _gamePaused = false;
             _gameEnd = false;
+            _textSet = false;
         }
 
         private void Update()
@@ -32,8 +38,16 @@ namespace Menu
                         UnPauseGame();
                     else
                         PauseGame();
+                }                             
+            }
+            if (_gameEnd)
+            {
+                if (!_textSet)
+                {
+                    ScoreDisplayDeath.text = "Score : " + ScoringSystem.ScoreController.Instance.GetScore().ToString();
+                    ScoreDisplayWin.text = "Score : " + ScoringSystem.ScoreController.Instance.GetScore().ToString();
+                    _textSet = true;
                 }
-                             
             }
         }
         
@@ -53,6 +67,7 @@ namespace Menu
 
         public void GameOver()
         {
+            Debug.Log("GAME OVER");
             _gameEnd = true;
             Time.timeScale = 0.0f;
             PivotGameOver.SetActive(true);
