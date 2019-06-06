@@ -9,12 +9,13 @@ public class HealthBar : MonoBehaviour
 
     private Menu.PauseMenu _deathMenu;
     private float _health;
-    private bool _dead = true;
+    private bool _dead = false;
     public ParticleSystem DeathParticle;
 
     private void Awake()
     {
         _deathMenu = GameObject.Find("Canvas").GetComponent<Menu.PauseMenu>();
+        _health = MaxHealth;
     }
 
     private void Update()
@@ -28,9 +29,9 @@ public class HealthBar : MonoBehaviour
 
     private IEnumerator Death()
     {
-        Time.timeScale = 0.0f;
+        Time.timeScale = 0.5f;
         DeathParticle.Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSecondsRealtime(1);
         Time.timeScale = 1.0f;
         _deathMenu.GameOver();
     }

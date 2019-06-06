@@ -79,6 +79,7 @@
             <e p="PauseMenu.cs" t="Include" />
             <e p="SwitchMenu.cs" t="Include" />
           </e>
+          <e p="Orb.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerCollider.cs" t="Include" />
           <e p="Playlist.cs" t="Include" />
