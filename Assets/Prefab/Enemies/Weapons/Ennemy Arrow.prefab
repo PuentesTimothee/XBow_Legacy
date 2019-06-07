@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3368466522676278778}
   - component: {fileID: 6005815343740181197}
   - component: {fileID: 345213359875908992}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 7810954491910452079}
   - component: {fileID: 7877821443553440870}
   - component: {fileID: 437084846411465314}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Release
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 4560186963386580412}
   - component: {fileID: 5386605196306066513}
   - component: {fileID: 1196629653799823544}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Release 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,7 +182,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f42d6e3f757c2e849945a187b2a7afcc, type: 2}
+  - {fileID: 2100000, guid: 0ff33004b62dfb049a3204367071aee0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 557319562565846908}
   - component: {fileID: 4892440120323464986}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,7 +251,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d1561e09737344f41a445d25215efd93, type: 2}
+  - {fileID: 2100000, guid: fbd4a8de9b1778648a24b68b30ce2378, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -310,19 +310,19 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.3254902, g: 0.654902, b: 0.7490196, a: 0}
-      key1: {r: 0.011764706, g: 0.5764706, b: 0.7490196, a: 1}
-      key2: {r: 0.3254902, g: 0.654902, b: 0.7490196, a: 1}
-      key3: {r: 0.150796, g: 0.077830195, b: 0.31132078, a: 0.78822327}
-      key4: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 0.9150943, g: 0.4963955, b: 0.4963955, a: 0}
+      key1: {r: 0.9150943, g: 0.16834284, b: 0.17712802, a: 1}
+      key2: {r: 0.7490196, g: 0.08235294, b: 0.09019608, a: 1}
+      key3: {r: 0.30980393, g: 0.07843137, b: 0.10713592, a: 0.78822327}
+      key4: {r: 0.150796, g: 0.077830195, b: 0.31132078, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
       ctime0: 0
-      ctime1: 6554
+      ctime1: 5590
       ctime2: 21010
       ctime3: 65535
-      ctime4: 0
+      ctime4: 65535
       ctime5: 0
       ctime6: 0
       ctime7: 0
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5915509717699396053}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: ChargingEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 5915509718363143379}
   - component: {fileID: 5915509718363143377}
   - component: {fileID: 5915509718363143376}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Charging_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 5915509718566292632}
   - component: {fileID: 5915509718560489134}
   - component: {fileID: 5915509718573950360}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Sound_ArrowCollideTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 5915509718566279244}
   - component: {fileID: 5915509718560470364}
   - component: {fileID: 5915509718573950634}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Sound_ArrowCollideGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -857,7 +857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5915509718566290642}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Arrow Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -893,7 +893,7 @@ GameObject:
   - component: {fileID: 3348257893437283037}
   - component: {fileID: 5915509718571770618}
   - component: {fileID: 2974785965709864294}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Ennemy Arrow
   m_TagString: EnnemyArrow
   m_Icon: {fileID: 0}
@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 5915509718566209828}
   - component: {fileID: 5915509718560484450}
   - component: {fileID: 5915509718573945228}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Sound_BowReleaseAir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 5915509718566211236}
   - component: {fileID: 5915509718560463692}
   - component: {fileID: 5915509718573957226}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Sound_BowReleaseFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1391,7 @@ GameObject:
   - component: {fileID: 5915509718722352113}
   - component: {fileID: 5915509718722352119}
   - component: {fileID: 5915509718722352118}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Charging_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1468,7 @@ GameObject:
   - component: {fileID: 5915509719052746132}
   - component: {fileID: 5915509719052746138}
   - component: {fileID: 5915509719052746133}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: ChargingParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6229,7 +6229,7 @@ GameObject:
   - component: {fileID: 5914960527594892218}
   - component: {fileID: 5939440769346821506}
   - component: {fileID: 5929458249554977760}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Shaft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6275,7 +6275,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f7cd62d595c763c428123f260c78b711, type: 2}
+  - {fileID: 2100000, guid: 7a362160a97e9924e9bca31b0cde1f9c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6307,7 +6307,7 @@ GameObject:
   - component: {fileID: 5939440768844453962}
   - component: {fileID: 5929458249742222564}
   - component: {fileID: 6020502189259799474}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6354,7 +6354,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b8285d8325ec1249b90fa00dae0911d, type: 2}
+  - {fileID: 2100000, guid: 05bc874a2d58dfc4490172495fefd24e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6395,7 +6395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1020668719951862236}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6431,7 +6431,7 @@ GameObject:
   - component: {fileID: 6114425088276651341}
   - component: {fileID: 885616969958227857}
   - component: {fileID: 3974910523113116172}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11201,7 +11201,7 @@ GameObject:
   - component: {fileID: 8173340057669787001}
   - component: {fileID: 4827111623080537536}
   - component: {fileID: 4401822228321596590}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Release 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11247,7 +11247,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f9752a6e89886004f99dd3ea6fa000d7, type: 2}
+  - {fileID: 2100000, guid: 3343229155da7a846ac2ca0ad5212131, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

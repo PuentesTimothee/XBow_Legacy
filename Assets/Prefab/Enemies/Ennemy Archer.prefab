@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2317788089858699775}
   m_LocalRotation: {x: 0.733424, y: -0.016400702, z: 0.66966295, w: 0.11563654}
-  m_LocalPosition: {x: -0.3870182, y: 1.1201181, z: 0.12512875}
+  m_LocalPosition: {x: -0.3870182, y: 1.1201181, z: 0.12512827}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1672445129193400421}
@@ -41,7 +41,7 @@ ParentConstraint:
   m_GameObject: {fileID: 2317788089858699775}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: -0.3870182, y: 1.1201181, z: 0.12512875}
+  m_TranslationAtRest: {x: -0.3870182, y: 1.1201181, z: 0.12512827}
   m_RotationAtRest: {x: 11.045431, y: 94.46216, z: 172.34044}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
@@ -197,9 +197,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b13c93474a3b56408b42cf3c381ef3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 173732, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
-  currentArrow: {fileID: 173732, guid: 81fc1450441aca64e8cc1a0e14b1aa77, type: 3}
+  arrow: {fileID: 5915509718566523990, guid: e1e052e3eb4e66545ac330b3929c430f, type: 3}
+  currentArrow: {fileID: 5915509718566523990, guid: e1e052e3eb4e66545ac330b3929c430f,
+    type: 3}
+  currentArrowComp: {fileID: 0}
   Hand: {fileID: 3049815938917002185}
+  player: {fileID: 0}
+  longbow: {fileID: 1672445129192911941}
+  force: 2
 --- !u!1 &8531234127724408545
 GameObject:
   m_ObjectHideFlags: 0
@@ -7933,7 +7938,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100014, guid: e694f124da5bfd84d97e67e8c2719420, type: 3}
       propertyPath: m_Name
-      value: Longbow
+      value: LongbowEnnemy
       objectReference: {fileID: 0}
     - target: {fileID: 400014, guid: e694f124da5bfd84d97e67e8c2719420, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7981,6 +7986,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e694f124da5bfd84d97e67e8c2719420, type: 3}
+--- !u!1 &1672445129192911941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: e694f124da5bfd84d97e67e8c2719420,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672445129193009899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1672445129193400421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: e694f124da5bfd84d97e67e8c2719420,
