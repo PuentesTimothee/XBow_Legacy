@@ -71,7 +71,6 @@ namespace Menu
         {
             Debug.Log("GAME OVER");
             _gameEnd = true;
-            Time.timeScale = 0.0f;
             PivotGameOver.SetActive(true);
         }
 

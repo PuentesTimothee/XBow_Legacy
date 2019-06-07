@@ -40,6 +40,7 @@ namespace Enemy
         private float waveCountDown;
 
         private float searchCountdown = 1f;
+        private bool _dead;
 
         public event Action<int> OnNewWave;
 
@@ -49,11 +50,14 @@ namespace Enemy
         {
             waveCountDown = timeBetweenWaves;
             _winMenu = GameObject.Find("Canvas").GetComponent<Menu.PauseMenu>();
-
+            _dead = false;
         }
 
         private void Update()
         {
+            if (_dead)
+                return;
+
             if (state == WaveState.WAITING)
             {
                 // check if ennemies are still alive;
@@ -147,6 +151,11 @@ namespace Enemy
                     return false;
             }
             return true;
+        }
+
+        public void SetDead()
+        {
+            _dead = true;
         }
     }
 }

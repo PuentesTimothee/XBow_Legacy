@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 672321330}
   - component: {fileID: 672321332}
   - component: {fileID: 672321331}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: particules
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4761,7 +4761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1933290840}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PS_Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4794,7 +4794,7 @@ GameObject:
   - component: {fileID: 866794357448252000}
   - component: {fileID: 866794357448252001}
   - component: {fileID: 6973212518462767644}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4830,8 +4830,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
-  timer: 30
-  chance: 90
+  timer: 20
+  chance: 30
   prefabVFX: {fileID: 4893662428107053388, guid: a804afb02c6270549bba82a6a1396639,
     type: 3}
 --- !u!135 &6973212518462767644
@@ -4845,8 +4845,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.09737262
-  m_Center: {x: 0, y: 0, z: -0.002319485}
+  m_Radius: 0.161502
+  m_Center: {x: 0, y: 0, z: -0.0017422438}
 --- !u!1 &866794357664219934
 GameObject:
   m_ObjectHideFlags: 0
@@ -4859,7 +4859,7 @@ GameObject:
   - component: {fileID: 866794357664219930}
   - component: {fileID: 866794357664219931}
   - component: {fileID: 866794357664219928}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -46,6 +46,7 @@ namespace SceneManagers
 
             _steamVrPlayer.transform.position = StartPlayerPosition.position;
             _steamVrPlayer.transform.rotation = StartPlayerPosition.rotation;
+            Time.timeScale = 1f;
         }
 
         private void ExitScene()

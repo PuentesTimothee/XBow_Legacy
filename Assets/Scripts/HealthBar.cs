@@ -32,7 +32,16 @@ public class HealthBar : MonoBehaviour
         Time.timeScale = 0.5f;
         DeathParticle.Play();
         yield return new WaitForSecondsRealtime(1);
+        var enemies = GameObject.FindGameObjectsWithTag("enemy");
         Time.timeScale = 1.0f;
+
+        foreach (var enemy in enemies)
+        {
+            StartCoroutine(enemy.GetComponent<EnemyMove>().Die(enemy.transform.position));
+        }
+        GameObject.FindObjectOfType<Enemy.WaveManager>().SetDead();
+        yield return new WaitForSecondsRealtime(2);
+ 
         _deathMenu.GameOver();
     }
     
