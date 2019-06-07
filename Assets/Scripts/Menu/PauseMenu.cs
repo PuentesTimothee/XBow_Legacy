@@ -54,6 +54,7 @@ namespace Menu
         private void PauseGame()
         {
             _gamePaused = true;
+            Player.Instance.WeaponsSlot.enabled = false;
             PivotPause.SetActive(true);
             Time.timeScale = 0.0f;
         }
@@ -61,6 +62,7 @@ namespace Menu
         private void UnPauseGame()
         {
             _gamePaused = false;
+            Player.Instance.WeaponsSlot.enabled = true;
             PivotPause.SetActive(false);
             Time.timeScale = 1.0f;
         }

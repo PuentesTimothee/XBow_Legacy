@@ -16,6 +16,10 @@ public class InstantiateAndLaunchArrow : MonoBehaviour
   public float force;
   private Vector3 dir;
 
+  private void Awake()
+  {
+    player = Player.Instance.gameObject;
+  }
 
   private GameObject InstantiateArrow()
   {

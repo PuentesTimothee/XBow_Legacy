@@ -850,19 +850,23 @@ namespace Valve.VR.InteractionSystem
             {
                 float scaledHoverRadius = hoverSphereRadius * Mathf.Abs(SteamVR_Utils.GetLossyScale(hoverSphereTransform));
                 CheckHoveringForTransform(hoverSphereTransform.position, scaledHoverRadius, ref closestDistance, ref closestInteractable, Color.green);
+                Debug.Log("Update 1 " + closestInteractable);
             }
 
             if (useControllerHoverComponent && mainRenderModel != null && mainRenderModel.IsControllerVisibile())
             {
                 float scaledHoverRadius = controllerHoverRadius * Mathf.Abs(SteamVR_Utils.GetLossyScale(this.transform));
                 CheckHoveringForTransform(mainRenderModel.GetControllerPosition(controllerHoverComponent), scaledHoverRadius / 2f, ref closestDistance, ref closestInteractable, Color.blue);
+                Debug.Log("Update 2 " + closestInteractable);
             }
 
             if (useFingerJointHover && mainRenderModel != null && mainRenderModel.IsHandVisibile())
             {
                 float scaledHoverRadius = fingerJointHoverRadius * Mathf.Abs(SteamVR_Utils.GetLossyScale(this.transform));
                 CheckHoveringForTransform(mainRenderModel.GetBonePosition((int)fingerJointHover), scaledHoverRadius / 2f, ref closestDistance, ref closestInteractable, Color.yellow);
+                Debug.Log("Update 3 " + closestInteractable);
             }
+            Debug.Log("Update " + closestInteractable);
 
             // Hover on this one
             hoveringInteractable = closestInteractable;
@@ -1057,10 +1061,9 @@ namespace Valve.VR.InteractionSystem
 
             // Stagger updates between hands
             float hoverUpdateBegin = ((otherHand != null) && (otherHand.GetInstanceID() < GetInstanceID())) ? (0.5f * hoverUpdateInterval) : (0.0f);
-            InvokeRepeating("UpdateHovering", hoverUpdateBegin, hoverUpdateInterval);
+            //InvokeRepeating("UpdateHovering", hoverUpdateBegin, hoverUpdateInterval);
             InvokeRepeating("UpdateDebugText", hoverUpdateBegin, hoverUpdateInterval);
         }
-
 
         //-------------------------------------------------
         protected virtual void OnDisable()
@@ -1075,6 +1078,7 @@ namespace Valve.VR.InteractionSystem
         protected virtual void Update()
         {
             UpdateNoSteamVRFallback();
+            UpdateHovering();
 
             GameObject attachedObject = currentAttachedObject;
             if (attachedObject != null)
@@ -1157,6 +1161,7 @@ namespace Valve.VR.InteractionSystem
 
         protected virtual void FixedUpdate()
         {
+            
             if (currentAttachedObject != null)
             {
                 AttachedObject attachedInfo = currentAttachedObjectInfo.Value;
