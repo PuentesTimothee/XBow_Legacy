@@ -50,6 +50,7 @@ namespace SceneManagers
 
         private void ExitScene()
         {
+            Time.timeScale = 1f;
             if (_steamVrPlayer)
                 _steamVrPlayer.WeaponsSlot.enabled = false;
             if (SceneType == SceneType.Game)
