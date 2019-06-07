@@ -8,29 +8,48 @@ public class InstantiateAndLaunchArrow : MonoBehaviour
 {
   public GameObject arrow;
   public GameObject currentArrow;
+  public Arrow currentArrowComp;
   public GameObject Hand;
+  public GameObject player;
+  public GameObject longbow;
 
   public float force;
+  private Vector3 dir;
 
 
-  public void KnockArrow() {
-    currentArrow = Instantiate(arrow, Hand.transform.position, Hand.transform.rotation);
-    currentArrow.transform.SetParent(Hand.transform);
+  private GameObject InstantiateArrow()
+  {
+    GameObject newArrow = Instantiate( arrow, Hand.transform.position, Hand.transform.rotation );
+    newArrow.transform.LookAt(player.transform);
+    newArrow.name = "Bow " + arrow.name;
+    newArrow.transform.parent = Hand.transform;
+    return newArrow;
+  }
+
+  private void KnockArrow()
+  {
+    currentArrow = InstantiateArrow();
+    currentArrowComp = currentArrow.GetComponent<Arrow>();
+    dir = player.transform.position - currentArrow.transform.position;
+    currentArrow.transform.LookAt(dir);
   }
 
   public void LaunchArrow() {
-    Arrow ArrowComp = currentArrow.GetComponent<Arrow>();
-    GameObject player = GameObject.Find("Player");
-    Vector3 dir = player.transform.position - transform.position;
-    dir = dir.normalized;
-    ArrowComp.Fire(dir * force);
-    Debug.Log("LaunchArrow");
+    dir = player.transform.position - currentArrow.transform.position;
+    currentArrow.transform.parent = null;
+    currentArrow.transform.LookAt(player.transform.position);
+    currentArrowComp.Fire(dir * force);
+    currentArrow = null;
+    currentArrowComp = null;
   }
 
   // Start is called before the first frame update
   void Start()
   {
-
+    if(!player)
+      player = GameObject.Find("Player");
+    if (!longbow)
+      longbow = GameObject.Find("LongbowEnnemy");
   }
 
   // Update is called once per frame
@@ -38,4 +57,6 @@ public class InstantiateAndLaunchArrow : MonoBehaviour
   {
 
   }
+
+
 }
