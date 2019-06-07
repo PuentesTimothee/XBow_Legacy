@@ -1,13 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Prefab/Enemies/Ennemy Archer.prefab.meta
-guid: 559a8b929b777264990280d1fcdca760
+guid: f2f4ff995a180ab44b968f1124c129c4
 PrefabImporter:
-=======
-guid: 8fd780fece47b2e49b85c88f4f4a4c7a
-NativeFormatImporter:
->>>>>>> e458a68406c12ed29c953d357b0123f87f3a364d:Assets/Prefab/Weapons/Shuriken/ShurikenTrail.mat.meta
   externalObjects: {}
-  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

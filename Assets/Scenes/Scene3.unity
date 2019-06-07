@@ -193,48 +193,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8101153603640405573, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1781028610, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1810
+      value: 882
       objectReference: {fileID: 0}
     - target: {fileID: 1781028610, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
-    - target: {fileID: 4980888086296676372, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
-        type: 3}
-      propertyPath: LevelIndex
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 822165165462005220, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 822165165462005220, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 822165166624410094, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 822165166624410094, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 822165165028212958, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 822165165028212958, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -13
+    - target: {fileID: 1781028610, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 448
       objectReference: {fileID: 0}
     - target: {fileID: 1292776086, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
       propertyPath: m_IsActive
@@ -589,6 +563,45 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980888086296676372, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: LevelIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 822165165462005220, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 822165165462005220, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 822165166624410094, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 822165166624410094, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 822165165028212958, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 822165165028212958, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381029770, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}

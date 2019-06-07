@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: b7d7e3a8e4c7c2741b090dd0c9451618, type: 2}
+--- !u!114 &155000323 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 464807171, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+    type: 3}
+  m_PrefabInstance: {fileID: 2064588174}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1031749326 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 185602338, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
@@ -131,6 +143,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ea9ced570cfa364caad45e47b417265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1400929375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 197560027, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+    type: 3}
+  m_PrefabInstance: {fileID: 2064588174}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2064588174
@@ -145,6 +169,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager GameVariant
       objectReference: {fileID: 0}
+    - target: {fileID: 185602338, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+      propertyPath: ScoreDisplayDeath
+      value: 
+      objectReference: {fileID: 155000323}
+    - target: {fileID: 185602338, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
+      propertyPath: ScoreDisplayWin
+      value: 
+      objectReference: {fileID: 1400929375}
     - target: {fileID: 3779316435755522373, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
         type: 3}
       propertyPath: m_LocalPosition.x
