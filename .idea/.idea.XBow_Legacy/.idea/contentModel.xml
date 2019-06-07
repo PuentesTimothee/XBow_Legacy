@@ -6,6 +6,7 @@
     <e p="D:\Repos\XBow_Legacy" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AppearAndLaunchArrow.cs" t="Include" />
         <e p="MenuUI" t="Include">
           <e p="Fonts" t="Include">
             <e p="Jupiter" t="Include">
@@ -66,6 +67,7 @@
             <e p="EnemyManager.cs" t="Include" />
             <e p="EnemyMove.cs" t="Include" />
             <e p="Hittable.cs" t="Include" />
+            <e p="InstantiateAndLaunchArrow.cs" t="Include" />
             <e p="RootMotionEnemyMove.cs" t="Include" />
             <e p="WaveManager.cs" t="Include" />
           </e>

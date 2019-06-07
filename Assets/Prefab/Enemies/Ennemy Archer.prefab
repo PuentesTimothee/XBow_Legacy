@@ -5151,8 +5151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8eff1d84f1bdd4e92be3219202d9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRange: 1.75
-  minRange: 0.15
+  maxRange: 10
+  minRange: 5
   damage: 0
   cooldown: 2
   animName: Fire

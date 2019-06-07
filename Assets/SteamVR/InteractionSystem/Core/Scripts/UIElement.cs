@@ -33,6 +33,7 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		protected virtual void OnHandHoverBegin( Hand hand )
 		{
+			Debug.Log("Hovered");
 			currentHand = hand;
 			InputModule.instance.HoverBegin( gameObject );
 			ControllerButtonHints.ShowButtonHint( hand, hand.uiInteractAction);
@@ -42,6 +43,7 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         protected virtual void OnHandHoverEnd( Hand hand )
 		{
+			Debug.Log("Pas Hovered");
 			InputModule.instance.HoverEnd( gameObject );
 			ControllerButtonHints.HideButtonHint( hand, hand.uiInteractAction);
 			currentHand = null;
@@ -51,6 +53,8 @@ namespace Valve.VR.InteractionSystem
         //-------------------------------------------------
         protected virtual void HandHoverUpdate( Hand hand )
 		{
+			Debug.Log("Hovered Updated");
+
 			if ( hand.uiInteractAction != null && hand.uiInteractAction.GetStateDown(hand.handType) )
 			{
 				InputModule.instance.Submit( gameObject );
