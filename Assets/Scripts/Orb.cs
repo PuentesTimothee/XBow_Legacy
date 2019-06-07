@@ -35,6 +35,7 @@ public class Orb : MonoBehaviour
             Destroy(endVFX, 2);
         }
         Debug.Log("Damage trigger");
+        Player.Instance.HealthBar.Heal(health);
         Destroy(this.gameObject);
     }
 }
