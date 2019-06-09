@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3751369986768337928}
   - component: {fileID: 1787954123362118148}
   - component: {fileID: 74174169792716759}
-  m_Layer: 11
-  m_Name: Shield
+  m_Layer: 9
+  m_Name: Shield Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,10 +25,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4460108575486918667}
-  m_LocalRotation: {x: 0.00000011175871, y: 0.00000009557698, z: 0.00000002142042,
-    w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.50000006, z: 0.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2662518113549757185}
   m_RootOrder: 0
@@ -40,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4460108575486918667}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -1272481795433867914, guid: e6c46cd785d05c9479d438d937196e09, type: 3}
 --- !u!23 &74174169792716759
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -58,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a1d5d6e06fd1007479003e5e0f166516, type: 2}
+  - {fileID: 2100000, guid: 3c8ca4e5cc9db1b4a9a92ae13457adad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,9 +86,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2662518113549757185}
-  - component: {fileID: 6525882799157922748}
-  m_Layer: 11
-  m_Name: Shield
+  - component: {fileID: 2447059090509690481}
+  m_Layer: 9
+  m_Name: Player Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,8 +110,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6525882799157922748
-BoxCollider:
+--- !u!64 &2447059090509690481
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -121,6 +120,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.5, z: 0.01}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -1272481795433867914, guid: e6c46cd785d05c9479d438d937196e09, type: 3}
