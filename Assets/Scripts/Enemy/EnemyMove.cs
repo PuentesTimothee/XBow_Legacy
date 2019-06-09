@@ -159,7 +159,7 @@ public class EnemyMove : MonoBehaviour {
 		}
 	}
 
-	IEnumerator Die(Vector3 position)
+	public IEnumerator Die(Vector3 position)
 	{
 		nav.enabled = false;
 		_dead = true;
