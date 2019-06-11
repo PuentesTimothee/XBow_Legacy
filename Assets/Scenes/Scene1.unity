@@ -205,6 +205,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 8101153603640405573, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1781028610, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1294.6
@@ -219,9 +224,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 822165164904780037, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
         type: 3}
+      propertyPath: waves.Array.data[3].Enemies.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 822165164904780037, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
       propertyPath: ifinityMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 822165164904780037, guid: fb15e2fb6b8fee84081a4b3d29611ccf,
+        type: 3}
+      propertyPath: waves.Array.data[3].Enemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 8972030210841055941, guid: f2f4ff995a180ab44b968f1124c129c4,
+        type: 3}
     - target: {fileID: 1381029773, guid: fb15e2fb6b8fee84081a4b3d29611ccf, type: 3}
       propertyPath: waveFiles.Array.size
       value: 3
