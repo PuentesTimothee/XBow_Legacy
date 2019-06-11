@@ -1,122 +1,350 @@
 fileFormatVersion: 2
 guid: 2ac9cdd4dda53644399320119b4402e7
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: chest
-    100002: chest.Upper
-    100004: collarbone.L
-    100006: collarbone.R
-    100008: eye.L
-    100010: eye.L_end
-    100012: eye.R
-    100014: eye.R_end
-    100016: foot.L
-    100018: foot.R
-    100020: hand.L
-    100022: hand.R
-    100024: head
-    100026: hips
-    100028: indexDistal.L
-    100030: indexDistal.L_end
-    100032: indexDistal.R
-    100034: indexDistal.R_end
-    100036: indexIntermediate.L
-    100038: indexIntermediate.R
-    100040: indexProximal.L
-    100042: indexProximal.R
-    100044: jaw
-    100046: jaw_end
-    100048: lowerArm.L
-    100050: lowerArm.R
-    100052: lowerLeg.L
-    100054: lowerLeg.R
-    100056: middleDistal.L
-    100058: middleDistal.L_end
-    100060: middleDistal.R
-    100062: middleDistal.R_end
-    100064: middleIntermediate.L
-    100066: middleIntermediate.R
-    100068: middleProximal.L
-    100070: middleProximal.R
-    100072: neck
-    100074: spine
-    100076: //RootNode
-    100078: thumbDistal.L
-    100080: thumbDistal.L_end
-    100082: thumbDistal.R
-    100084: thumbDistal.R_end
-    100086: thumbIntermediate.L
-    100088: thumbIntermediate.R
-    100090: thumbProximal.L
-    100092: thumbProximal.R
-    100094: toe.L
-    100096: toe.L_end
-    100098: toe.R
-    100100: toe.R_end
-    100102: upperArm.L
-    100104: upperArm.R
-    100106: upperLeg.L
-    100108: upperLeg.R
-    100110: Generic Man
-    400000: chest
-    400002: chest.Upper
-    400004: collarbone.L
-    400006: collarbone.R
-    400008: eye.L
-    400010: eye.L_end
-    400012: eye.R
-    400014: eye.R_end
-    400016: foot.L
-    400018: foot.R
-    400020: hand.L
-    400022: hand.R
-    400024: head
-    400026: hips
-    400028: indexDistal.L
-    400030: indexDistal.L_end
-    400032: indexDistal.R
-    400034: indexDistal.R_end
-    400036: indexIntermediate.L
-    400038: indexIntermediate.R
-    400040: indexProximal.L
-    400042: indexProximal.R
-    400044: jaw
-    400046: jaw_end
-    400048: lowerArm.L
-    400050: lowerArm.R
-    400052: lowerLeg.L
-    400054: lowerLeg.R
-    400056: middleDistal.L
-    400058: middleDistal.L_end
-    400060: middleDistal.R
-    400062: middleDistal.R_end
-    400064: middleIntermediate.L
-    400066: middleIntermediate.R
-    400068: middleProximal.L
-    400070: middleProximal.R
-    400072: neck
-    400074: spine
-    400076: //RootNode
-    400078: thumbDistal.L
-    400080: thumbDistal.L_end
-    400082: thumbDistal.R
-    400084: thumbDistal.R_end
-    400086: thumbIntermediate.L
-    400088: thumbIntermediate.R
-    400090: thumbProximal.L
-    400092: thumbProximal.R
-    400094: toe.L
-    400096: toe.L_end
-    400098: toe.R
-    400100: toe.R_end
-    400102: upperArm.L
-    400104: upperArm.R
-    400106: upperLeg.L
-    400108: upperLeg.R
-    400110: Generic Man
-    7400000: run right
-    9500000: //RootNode
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: chest
+  - first:
+      1: 100002
+    second: chest.Upper
+  - first:
+      1: 100004
+    second: collarbone.L
+  - first:
+      1: 100006
+    second: collarbone.R
+  - first:
+      1: 100008
+    second: eye.L
+  - first:
+      1: 100010
+    second: eye.L_end
+  - first:
+      1: 100012
+    second: eye.R
+  - first:
+      1: 100014
+    second: eye.R_end
+  - first:
+      1: 100016
+    second: foot.L
+  - first:
+      1: 100018
+    second: foot.R
+  - first:
+      1: 100020
+    second: hand.L
+  - first:
+      1: 100022
+    second: hand.R
+  - first:
+      1: 100024
+    second: head
+  - first:
+      1: 100026
+    second: hips
+  - first:
+      1: 100028
+    second: indexDistal.L
+  - first:
+      1: 100030
+    second: indexDistal.L_end
+  - first:
+      1: 100032
+    second: indexDistal.R
+  - first:
+      1: 100034
+    second: indexDistal.R_end
+  - first:
+      1: 100036
+    second: indexIntermediate.L
+  - first:
+      1: 100038
+    second: indexIntermediate.R
+  - first:
+      1: 100040
+    second: indexProximal.L
+  - first:
+      1: 100042
+    second: indexProximal.R
+  - first:
+      1: 100044
+    second: jaw
+  - first:
+      1: 100046
+    second: jaw_end
+  - first:
+      1: 100048
+    second: lowerArm.L
+  - first:
+      1: 100050
+    second: lowerArm.R
+  - first:
+      1: 100052
+    second: lowerLeg.L
+  - first:
+      1: 100054
+    second: lowerLeg.R
+  - first:
+      1: 100056
+    second: middleDistal.L
+  - first:
+      1: 100058
+    second: middleDistal.L_end
+  - first:
+      1: 100060
+    second: middleDistal.R
+  - first:
+      1: 100062
+    second: middleDistal.R_end
+  - first:
+      1: 100064
+    second: middleIntermediate.L
+  - first:
+      1: 100066
+    second: middleIntermediate.R
+  - first:
+      1: 100068
+    second: middleProximal.L
+  - first:
+      1: 100070
+    second: middleProximal.R
+  - first:
+      1: 100072
+    second: neck
+  - first:
+      1: 100074
+    second: spine
+  - first:
+      1: 100076
+    second: //RootNode
+  - first:
+      1: 100078
+    second: thumbDistal.L
+  - first:
+      1: 100080
+    second: thumbDistal.L_end
+  - first:
+      1: 100082
+    second: thumbDistal.R
+  - first:
+      1: 100084
+    second: thumbDistal.R_end
+  - first:
+      1: 100086
+    second: thumbIntermediate.L
+  - first:
+      1: 100088
+    second: thumbIntermediate.R
+  - first:
+      1: 100090
+    second: thumbProximal.L
+  - first:
+      1: 100092
+    second: thumbProximal.R
+  - first:
+      1: 100094
+    second: toe.L
+  - first:
+      1: 100096
+    second: toe.L_end
+  - first:
+      1: 100098
+    second: toe.R
+  - first:
+      1: 100100
+    second: toe.R_end
+  - first:
+      1: 100102
+    second: upperArm.L
+  - first:
+      1: 100104
+    second: upperArm.R
+  - first:
+      1: 100106
+    second: upperLeg.L
+  - first:
+      1: 100108
+    second: upperLeg.R
+  - first:
+      1: 100110
+    second: Generic Man
+  - first:
+      4: 400000
+    second: chest
+  - first:
+      4: 400002
+    second: chest.Upper
+  - first:
+      4: 400004
+    second: collarbone.L
+  - first:
+      4: 400006
+    second: collarbone.R
+  - first:
+      4: 400008
+    second: eye.L
+  - first:
+      4: 400010
+    second: eye.L_end
+  - first:
+      4: 400012
+    second: eye.R
+  - first:
+      4: 400014
+    second: eye.R_end
+  - first:
+      4: 400016
+    second: foot.L
+  - first:
+      4: 400018
+    second: foot.R
+  - first:
+      4: 400020
+    second: hand.L
+  - first:
+      4: 400022
+    second: hand.R
+  - first:
+      4: 400024
+    second: head
+  - first:
+      4: 400026
+    second: hips
+  - first:
+      4: 400028
+    second: indexDistal.L
+  - first:
+      4: 400030
+    second: indexDistal.L_end
+  - first:
+      4: 400032
+    second: indexDistal.R
+  - first:
+      4: 400034
+    second: indexDistal.R_end
+  - first:
+      4: 400036
+    second: indexIntermediate.L
+  - first:
+      4: 400038
+    second: indexIntermediate.R
+  - first:
+      4: 400040
+    second: indexProximal.L
+  - first:
+      4: 400042
+    second: indexProximal.R
+  - first:
+      4: 400044
+    second: jaw
+  - first:
+      4: 400046
+    second: jaw_end
+  - first:
+      4: 400048
+    second: lowerArm.L
+  - first:
+      4: 400050
+    second: lowerArm.R
+  - first:
+      4: 400052
+    second: lowerLeg.L
+  - first:
+      4: 400054
+    second: lowerLeg.R
+  - first:
+      4: 400056
+    second: middleDistal.L
+  - first:
+      4: 400058
+    second: middleDistal.L_end
+  - first:
+      4: 400060
+    second: middleDistal.R
+  - first:
+      4: 400062
+    second: middleDistal.R_end
+  - first:
+      4: 400064
+    second: middleIntermediate.L
+  - first:
+      4: 400066
+    second: middleIntermediate.R
+  - first:
+      4: 400068
+    second: middleProximal.L
+  - first:
+      4: 400070
+    second: middleProximal.R
+  - first:
+      4: 400072
+    second: neck
+  - first:
+      4: 400074
+    second: spine
+  - first:
+      4: 400076
+    second: //RootNode
+  - first:
+      4: 400078
+    second: thumbDistal.L
+  - first:
+      4: 400080
+    second: thumbDistal.L_end
+  - first:
+      4: 400082
+    second: thumbDistal.R
+  - first:
+      4: 400084
+    second: thumbDistal.R_end
+  - first:
+      4: 400086
+    second: thumbIntermediate.L
+  - first:
+      4: 400088
+    second: thumbIntermediate.R
+  - first:
+      4: 400090
+    second: thumbProximal.L
+  - first:
+      4: 400092
+    second: thumbProximal.R
+  - first:
+      4: 400094
+    second: toe.L
+  - first:
+      4: 400096
+    second: toe.L_end
+  - first:
+      4: 400098
+    second: toe.R
+  - first:
+      4: 400100
+    second: toe.R_end
+  - first:
+      4: 400102
+    second: upperArm.L
+  - first:
+      4: 400104
+    second: upperArm.R
+  - first:
+      4: 400106
+    second: upperLeg.L
+  - first:
+      4: 400108
+    second: upperLeg.R
+  - first:
+      4: 400110
+    second: Generic Man
+  - first:
+      74: 7400000
+    second: run right
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -148,6 +376,7 @@ ModelImporter:
     - serializedVersion: 16
       name: run right
       takeName: mixamo.com
+      internalID: 7400000
       firstFrame: 0
       lastFrame: 45
       wrapMode: 0
@@ -168,7 +397,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.2818004
+        functionName: StepLeft
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.71819955
+        functionName: StepRight
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -187,18 +430,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -207,10 +451,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 1
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: hips
       humanName: Hips
@@ -949,6 +1194,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
