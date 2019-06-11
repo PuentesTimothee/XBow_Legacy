@@ -69,8 +69,10 @@
             <e p="Hittable.cs" t="Include" />
             <e p="InstantiateAndLaunchArrow.cs" t="Include" />
             <e p="RootMotionEnemyMove.cs" t="Include" />
+            <e p="SimpleHittable.cs" t="Include" />
             <e p="WaveManager.cs" t="Include" />
           </e>
+          <e p="FootSteps.cs" t="Include" />
           <e p="Hack" t="Include">
             <e p="SlowTimeZone.cs" t="Include" />
           </e>
