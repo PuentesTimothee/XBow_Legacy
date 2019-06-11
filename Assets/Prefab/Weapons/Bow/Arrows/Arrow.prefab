@@ -65,7 +65,8 @@ AudioSource:
   m_GameObject: {fileID: 122890}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -261,7 +262,8 @@ AudioSource:
   m_GameObject: {fileID: 140096}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -445,7 +447,8 @@ AudioSource:
   m_GameObject: {fileID: 150948}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -800,7 +803,8 @@ AudioSource:
   m_GameObject: {fileID: 195658}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -5779,7 +5783,7 @@ ParticleSystem:
 --- !u!199 &1023905639
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10785,7 +10789,7 @@ ParticleSystem:
 --- !u!199 &7291790350742151422
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

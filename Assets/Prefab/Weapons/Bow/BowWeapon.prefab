@@ -122,6 +122,36 @@ PrefabInstance:
       propertyPath: AppearOnStart
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 80796757702231593, guid: 337c68b8476236e419d4d2066fc745ea,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+        type: 2}
+    - target: {fileID: 80796757702262135, guid: 337c68b8476236e419d4d2066fc745ea,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+        type: 2}
+    - target: {fileID: 80796757702243617, guid: 337c68b8476236e419d4d2066fc745ea,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+        type: 2}
+    - target: {fileID: 80796757702237193, guid: 337c68b8476236e419d4d2066fc745ea,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+        type: 2}
+    - target: {fileID: 80796757702473907, guid: 337c68b8476236e419d4d2066fc745ea,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 337c68b8476236e419d4d2066fc745ea, type: 3}
 --- !u!1 &1869962509285611369 stripped
@@ -215,6 +245,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3793337066538008264, guid: 14a2f19699c192c4bb0acb833391c306,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5863571192709329762, guid: f98d051d5df198c4cac36933e2d89528,
+        type: 2}
     - target: {fileID: 8642344758035835843, guid: 14a2f19699c192c4bb0acb833391c306,
         type: 3}
       propertyPath: AppearOnStart

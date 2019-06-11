@@ -87,6 +87,12 @@ PrefabInstance:
       propertyPath: _impactSound
       value: 
       objectReference: {fileID: 2184855211828776503}
+    - target: {fileID: 78377336723801757, guid: 5a6328de2b4f81547a7584329e960515,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -901029639262711576, guid: f98d051d5df198c4cac36933e2d89528,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 6963500332555357072, guid: 5a6328de2b4f81547a7584329e960515, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5a6328de2b4f81547a7584329e960515, type: 3}
