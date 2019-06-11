@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 6661727854979668466}
   - component: {fileID: 5217581170907337648}
   - component: {fileID: 2100236659835090990}
+  - component: {fileID: 9021284227786198601}
   m_Layer: 0
   m_Name: Mesh
   m_TagString: Untagged
@@ -205,6 +206,20 @@ MonoBehaviour:
   player: {fileID: 0}
   longbow: {fileID: 1672445129192911941}
   force: 2
+--- !u!114 &9021284227786198601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4023434187726262887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a3f3f27d7f69e4083004c19a9e3598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightStep: {fileID: 8300000, guid: 3757626c75f931848ab48749a69e4146, type: 3}
+  leftStep: {fileID: 8300000, guid: 4478dc7aae4824747a766b43d8440f38, type: 3}
 --- !u!1 &8531234127724408545
 GameObject:
   m_ObjectHideFlags: 0
@@ -7998,15 +8013,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 80a63b59671e1994aaf840418048002d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e694f124da5bfd84d97e67e8c2719420, type: 3}
---- !u!1 &1672445129192911941 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100014, guid: e694f124da5bfd84d97e67e8c2719420,
-    type: 3}
-  m_PrefabInstance: {fileID: 1672445129193009899}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1672445129193400421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: e694f124da5bfd84d97e67e8c2719420,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672445129193009899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1672445129192911941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: e694f124da5bfd84d97e67e8c2719420,
     type: 3}
   m_PrefabInstance: {fileID: 1672445129193009899}
   m_PrefabAsset: {fileID: 0}

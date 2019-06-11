@@ -7685,7 +7685,7 @@ ParticleSystem:
 --- !u!199 &8671943971764982366
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7755,6 +7755,7 @@ GameObject:
   - component: {fileID: 2153575613773062574}
   - component: {fileID: 276733229688372527}
   - component: {fileID: 1714889843148765037}
+  - component: {fileID: 6348574617023002984}
   m_Layer: 0
   m_Name: Mesh
   m_TagString: Untagged
@@ -7813,6 +7814,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Nav: {fileID: 2533024820887385607}
   Animator: {fileID: 276733229688372527}
+--- !u!114 &6348574617023002984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7526092513265481402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a3f3f27d7f69e4083004c19a9e3598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightStep: {fileID: 8300000, guid: 3757626c75f931848ab48749a69e4146, type: 3}
+  leftStep: {fileID: 8300000, guid: 4478dc7aae4824747a766b43d8440f38, type: 3}
 --- !u!1 &8500278385472474900
 GameObject:
   m_ObjectHideFlags: 0
@@ -7935,11 +7950,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8571824444635846741}
     m_Modifications:
-    - target: {fileID: 3213255169276318283, guid: 01f50a3510dfe2b45aea2b98f7174f98,
-        type: 3}
-      propertyPath: m_Name
-      value: Sword Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 496532365683943681, guid: 01f50a3510dfe2b45aea2b98f7174f98,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8009,6 +8019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.1999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3213255169276318283, guid: 01f50a3510dfe2b45aea2b98f7174f98,
+        type: 3}
+      propertyPath: m_Name
+      value: Sword Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01f50a3510dfe2b45aea2b98f7174f98, type: 3}
