@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a1d5d6e06fd1007479003e5e0f166516, type: 2}
+  - {fileID: 2100000, guid: c70523dfce13ad64083627d7f273f9c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 2662518113549757185}
   - component: {fileID: 2447059090509690481}
   m_Layer: 11
-  m_Name: Shield
+  m_Name: Ennemy Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
