@@ -10,7 +10,7 @@ namespace Weapons
         private void OnTriggerEnter(Collider other)
         {
             var hittable = other.GetComponent<Hittable>();
-            if (hittable != null)
+            if (hittable != null){}
                 hittable.Hit(Damage, transform.position);
         }
     }
