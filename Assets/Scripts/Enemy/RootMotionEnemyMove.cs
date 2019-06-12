@@ -5,7 +5,7 @@ public class RootMotionEnemyMove : MonoBehaviour
 {
 	public NavMeshAgent Nav;
 	public Animator Animator;
-	
+
 	void OnAnimatorMove()
 	{
 		if (Time.deltaTime != 0)

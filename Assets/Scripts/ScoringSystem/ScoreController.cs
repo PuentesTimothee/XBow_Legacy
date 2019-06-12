@@ -172,7 +172,7 @@ namespace ScoringSystem
             adding += _comboCount * 100;
             _comboCount++;
             _score += adding;
-            if (ComboSound)
+            if (ComboSound && _comboCount >= 8)
                 ComboSound.Play();
             if (ScoreDisplay)
                 ScoreDisplay.text = _score.ToString();

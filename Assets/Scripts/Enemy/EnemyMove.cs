@@ -20,6 +20,7 @@ public class EnemyMove : MonoBehaviour {
 	private float minRange = -1;
 	private bool _dead = false;
 	public float FrontAngle = 90f;
+	public float rotationSpeed = 1f;
 
 	public SoundPlayOneshot _deathSound;
 	public ParticleSystem _deathParticles;
@@ -71,6 +72,7 @@ public class EnemyMove : MonoBehaviour {
 
 		Vector3 destination = Pos + (Direction.magnitude - (minRange + 0.5f)) * Direction.normalized;
 		destination.y = player.transform.position.y;
+		RotateTowards(player.transform);
 		//the enemy always go to the current location of the player but to attack him it needs to see him and be on range
 		//But we reduce the magnitude so the enemy stops a little before the player
 		nav.SetDestination(destination);
@@ -119,6 +121,12 @@ public class EnemyMove : MonoBehaviour {
 				}*/
 			}
 		}
+	}
+
+	private void RotateTowards (Transform target) {
+		Vector3 direction = (target.position - transform.position).normalized;
+		Quaternion lookRotation = Quaternion.LookRotation(direction);
+		transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
 	}
 
 	IEnumerator AttackPlayer()
