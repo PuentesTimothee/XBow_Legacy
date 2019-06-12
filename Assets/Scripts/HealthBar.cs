@@ -29,7 +29,7 @@ public class HealthBar : MonoBehaviour
 
     private IEnumerator Death()
     {
-        Time.timeScale = 0.5f;
+        Time.timeScale = 0.1f;
         DeathParticle.Play();
         yield return new WaitForSecondsRealtime(1);
         var enemies = GameObject.FindGameObjectsWithTag("enemy");
@@ -38,6 +38,7 @@ public class HealthBar : MonoBehaviour
         foreach (var enemy in enemies)
         {
             StartCoroutine(enemy.GetComponent<EnemyMove>().Die(enemy.transform.position));
+            yield return new WaitForSecondsRealtime(0.5f);
         }
         GameObject.FindObjectOfType<Enemy.WaveManager>().SetDead();
         yield return new WaitForSecondsRealtime(2);
